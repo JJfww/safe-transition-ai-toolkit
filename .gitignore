@@ -1,0 +1,7 @@
+.playwright-cli/
+.DS_Store
+homepage-verify.png
+lab-verify.png
+lab-privacy-verify.png
+lab-privacy-verify-full.png
+use-ai-for-this-verify.png
