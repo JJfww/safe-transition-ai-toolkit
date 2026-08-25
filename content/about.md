@@ -24,10 +24,6 @@ The site itself does not ask for student information, but the same privacy expec
 
 ### Jennifer Burnes, PhD
 
-Jennifer Burnes, PhD, is a transition specialist, educator, and problem solver with more than 20 years of experience in instruction, research, program evaluation, and data-informed practice.
-
-Her work focuses on finding practical solutions that make systems more useful for educators and expand access, independence, and opportunity for young adults with disabilities.
-
-She provides education and technical assistance to adult learners, educators, job coaches, and school teams, translating complex information into usable tools, training, and support.
+Jennifer Burnes, PhD, is an educator and problem-solver with a background in analytical work. Before her career in education, she designed risk-monitoring processes and used data to develop targeted strategies in financial services. For more than 20 years, she has applied that systems-minded approach to finding practical solutions, delivering education and technical assistance, and helping adult learners and transition teams turn complex information into usable next steps.
 
 One of her proudest teaching moments came when a graduate student shared that, for the first time, she could explain complicated assessment information to a student's parents with confidence and accuracy rather than simply glossing over it.
