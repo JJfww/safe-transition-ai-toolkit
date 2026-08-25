@@ -30,4 +30,4 @@ Her work includes building partnerships with employers and community agencies, c
 
 Before her career in education, Jennifer worked in financial-services analytics, building automated risk-monitoring processes and using data to inform customer-acquisition decisions. For more than 20 years, she has applied that systems-minded approach to instruction, research, program evaluation, and data-informed practice, finding practical ways to make systems more useful for educators and expand access, independence, and opportunity for young adults with disabilities.
 
-One of her proudest teaching moments came when a graduate student shared that, for the first time, she could explain complicated assessment information to a student's parents with confidence and accuracy rather than simply glossing over it.
+Jennifer values teaching young adults to understand and communicate their strengths, interests, and preferences as they prepare for self-advocacy, employment, and independent living. She also enjoys helping educators and related-service professionals understand assessment and data, then use it effectively to improve outcomes.
