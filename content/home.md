@@ -41,4 +41,4 @@ This page gives staff a quick orientation to the toolkit's purpose, boundaries, 
 
 ## Signature feature
 
-The AI Drafting Lab for Transition Work helps staff prepare structured prompts for IEP development, transition plan development, and hidden curriculum work. This site itself does not send text to a model. It creates a structured prompt that users may choose to copy into an approved external AI tool after privacy review.
+The AI Drafting Lab for Transition Work helps staff prepare structured prompts for IEP development, transition plan development, and hidden curriculum work. Its privacy screen flags likely identifying or protected details before a prompt can be generated. This site itself does not send text to a model. It creates a structured prompt that users may choose to copy into an approved external AI tool after privacy review.

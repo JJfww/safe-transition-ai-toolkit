@@ -1303,114 +1303,102 @@ body[data-page="home"] .site-nav a {
   transform: rotate(-24deg);
 }
 
-.signature-shell__body {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+.signature-shell__status {
+  margin-left: auto;
+  padding: 0.25rem 0.5rem;
+  border: 1px solid rgba(244, 239, 229, 0.45);
+  border-radius: 999px;
+  color: rgba(244, 239, 229, 0.85);
+  font-family: var(--sans);
+  font-size: 0.67rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
 }
 
-.signature-shell__column + .signature-shell__column {
-  border-left: 1px solid rgba(89, 76, 59, 0.12);
+.signature-preview {
+  padding: 1.45rem;
 }
 
-.signature-block {
-  padding: 1rem 1.2rem 1.1rem;
-  border-bottom: 1px solid rgba(89, 76, 59, 0.12);
-}
-
-.signature-block h3 {
-  margin: 0 0 0.35rem;
-  font-size: 1rem;
-}
-
-.signature-block h3 span {
-  color: var(--muted);
-  font-weight: 400;
-}
-
-.signature-block p {
-  margin: 0 0 0.7rem;
-  color: var(--muted);
-  font-size: 0.93rem;
-}
-
-.signature-shell__textarea,
-.signature-shell__prompt {
-  padding: 0.95rem;
-  border: 1px solid rgba(89, 76, 59, 0.12);
-  border-radius: 8px;
-  background: #faf6ef;
+.signature-preview__lead {
+  margin: 0 0 1rem;
   color: #4d4a41;
-  line-height: 1.7;
+  font-family: var(--serif);
+  font-size: 1.35rem;
 }
 
-.signature-shell__meta {
-  display: block;
-  margin-top: 0.35rem;
-  color: #847b6c;
-  font-size: 0.82rem;
-}
-
-.signature-checklist,
-.signature-radios {
-  margin: 0;
-  padding: 0;
-  list-style: none;
+.signature-preview__lanes {
   display: grid;
-  gap: 0.55rem;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.7rem;
 }
 
-.signature-checklist li,
-.signature-radios li {
-  position: relative;
-  padding-left: 1.6rem;
+.signature-preview__lane {
+  min-height: 10.5rem;
+  padding: 1rem;
+  border: 1px solid rgba(89, 76, 59, 0.12);
+  border-radius: 9px;
+  background: #faf6ef;
+}
+
+.signature-preview__lane span {
+  color: #a55436;
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+}
+
+.signature-preview__lane h3 {
+  margin: 0.55rem 0 0.45rem;
+  color: #35442d;
+  font-family: var(--serif);
+  font-size: 1.2rem;
+  line-height: 1.1;
+}
+
+.signature-preview__lane p {
+  margin: 0;
   color: var(--muted);
+  font-size: 0.84rem;
+  line-height: 1.5;
 }
 
-.signature-checklist li::before,
-.signature-radios li::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0.32rem;
-  width: 0.8rem;
-  height: 0.8rem;
-  border: 1px solid rgba(94, 108, 76, 0.42);
-  background: white;
+.signature-preview__safety {
+  display: grid;
+  gap: 0.2rem;
+  margin-top: 1rem;
+  padding: 0.85rem 0.95rem;
+  border-left: 4px solid #a55436;
+  background: #f7eee8;
+  color: #5e4f43;
+  font-size: 0.88rem;
+  line-height: 1.45;
 }
 
-.signature-radios li::before {
-  border-radius: 50%;
+.signature-preview__safety strong {
+  color: #8e4327;
 }
 
-.signature-checklist .is-selected::before {
-  background: #6a7b56;
-  box-shadow: inset 0 0 0 2px #faf6ef;
-}
-
-.signature-radios .is-selected::before {
-  background: radial-gradient(circle, #6a7b56 0 40%, white 44% 100%);
-}
-
-.signature-shell__actions {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  margin-top: 0.9rem;
-}
-
-.signature-pill {
+.signature-preview__open {
   display: inline-flex;
-  align-items: center;
-  padding: 0.55rem 0.85rem;
-  border-radius: 8px;
-  background: #687755;
-  color: #f7f2ea;
-  font-weight: 600;
+  gap: 0.45rem;
+  margin-top: 1.15rem;
+  color: #9a492d;
+  font-size: 0.94rem;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.signature-preview__open:hover,
+.signature-preview__open:focus-visible {
+  color: #6e351f;
+  text-decoration: underline;
 }
 
 .signature-shell__footer {
   margin: 0;
   padding: 0.85rem 1.15rem;
+  border-top: 1px solid rgba(89, 76, 59, 0.12);
   color: #70685d;
   font-size: 0.9rem;
 }
@@ -1623,8 +1611,7 @@ body[data-page="home"] .site-nav a {
     display: none;
   }
 
-  .band-panel + .band-panel,
-  .signature-shell__column + .signature-shell__column {
+  .band-panel + .band-panel {
     border-left: 0;
     border-top: 1px solid rgba(96, 82, 60, 0.12);
   }
@@ -1639,6 +1626,18 @@ body[data-page="home"] .site-nav a {
 }
 
 @media (max-width: 720px) {
+  .signature-preview {
+    padding: 1.1rem;
+  }
+
+  .signature-preview__lanes {
+    grid-template-columns: 1fr;
+  }
+
+  .signature-preview__lane {
+    min-height: 0;
+  }
+
   .hero--homepage {
     gap: 1.8rem;
     padding: 1.4rem 0 4rem;
