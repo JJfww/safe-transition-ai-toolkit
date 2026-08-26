@@ -12,7 +12,7 @@ This page helps staff identify uses where AI can be a planning or drafting suppo
 
 - Rewrite information in plain language
 - Create job-specific vocabulary practice. **Example:** [Open bakery vocabulary example (PDF)](Visual%20Supports/VocabularyList.pdf)
-- Draft interview practice questions
+- Draft interview practice questions. **Example:** [Open cafeteria interview-practice example (PDF)](Visual%20Supports/Cafeteria-InterviewQuestions.pdf)
 - Brainstorm visual supports. **Example:** [Open visual-support example](Visual%20Supports/WorkExperienceOptions.png)
 - Create task analysis drafts
 - Generate role-play scenarios
@@ -58,6 +58,16 @@ Include these bakery words:
 - Dough hook
 
 Use one clear image per word, plain-language labels, and high-contrast, readable text. Show real bakery equipment and processes, not decorative food imagery. Keep the page suitable for printing and reviewing with a student.
+```
+
+## Cafeteria interview-practice example prompt
+
+The following reviewed prompt created the linked interview-practice example. Revise questions for the actual role and help the student prepare truthful, personal responses.
+
+```text
+Create a printable PDF with general interview-practice questions for a student in an 18-21 transition program who is interested in working in a nursing-home cafeteria. This is an instructional practice tool, not an employment screening or a prediction of what an employer will ask.
+
+Use clear, student-friendly language and include questions about introductions, interest in the job, availability, following directions, teamwork, food safety, helping customers, and what to do when the student is unsure. Keep the questions appropriate for a cafeteria setting and leave space for a student or staff member to practice answers. Do not include student names, health information, or details about residents.
 ```
 
 ## What still requires human review
