@@ -4,7 +4,7 @@ Status: draft
 
 ## Core message
 
-The SAFE Transition AI Toolkit is a practical, staff-facing resource for transition educators, job coaches, paraprofessionals, and program leaders who support young adults with disabilities. It is designed to help teams use AI in ways that are useful, safe, student-centered, and grounded in human judgment.
+The SAFE AI Toolkit is a practical, staff-facing resource for transition and special education educators, job coaches, paraprofessionals, and program leaders who support young adults with disabilities. It is designed to help teams use AI in ways that are useful, safe, student-centered, and grounded in human judgment.
 
 ## What this page helps staff do
 
