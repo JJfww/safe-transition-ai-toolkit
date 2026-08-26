@@ -14,7 +14,7 @@ This page helps staff identify uses where AI can be a planning or drafting suppo
 - Create job-specific vocabulary practice. **Example:** [Open bakery vocabulary example (PDF)](Visual%20Supports/VocabularyList.pdf)
 - Draft interview practice questions. **Example:** [Open cafeteria interview-practice example (PDF)](Visual%20Supports/Cafeteria-InterviewQuestions.pdf)
 - Brainstorm visual supports. **Example:** [Open visual-support example](Visual%20Supports/WorkExperienceOptions.png)
-- Create task analysis drafts
+- Create task analysis drafts. **Example:** [Open rolling-silverware task analysis (PDF)](Visual%20Supports/RollingSilverwareTaskAnalysis.pdf)
 - Generate role-play scenarios
 - Draft family-friendly explanations of transition services
 - Identify possible hidden curriculum in job materials
@@ -68,6 +68,24 @@ The following reviewed prompt created the linked interview-practice example. Rev
 Create a printable PDF with general interview-practice questions for a student in an 18-21 transition program who is interested in working in a nursing-home cafeteria. This is an instructional practice tool, not an employment screening or a prediction of what an employer will ask.
 
 Use clear, student-friendly language and include questions about introductions, interest in the job, availability, following directions, teamwork, food safety, helping customers, and what to do when the student is unsure. Keep the questions appropriate for a cafeteria setting and leave space for a student or staff member to practice answers. Do not include student names, health information, or details about residents.
+```
+
+## Rolling-silverware task-analysis example prompt
+
+The following reviewed prompt created the linked instructional handout. Confirm the sequence, materials, and safety expectations with the actual workplace before teaching it.
+
+```text
+Create a one-page, letter-size task analysis for rolling silverware in a cafeteria or dining setting. Use photo-realistic visuals and plain-language written steps. The materials are one square cloth napkin, one fork, one knife, and one spoon. Do not use real names or identifying information.
+
+Show these steps:
+1. Lay the clean cloth napkin flat.
+2. Place the fork, knife, and spoon together in the center.
+3. Fold the bottom corner up over the utensil handles.
+4. Fold the left side toward the center.
+5. Fold the right side toward the center.
+6. Roll the napkin tightly and tuck the end so it stays closed.
+
+Include a QR code linking to this demonstration video: https://youtu.be/x5BhFVdgxqo?si=Iv2JZk-dsnh9sDOz. Use a clean, easy-to-scan, printable layout. Add a short reminder to review the real workplace routine with staff.
 ```
 
 ## What still requires human review
