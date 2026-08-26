@@ -48,6 +48,30 @@ For each option:
 These are drafting options only. The IEP team must revise the final goal using actual student data, student preferences, and professional judgment.
 ```
 
+### Example draft output
+
+This sample shows the kind of options the prompt may produce. It is not a final IEP goal, and the comparison note also requires team review.
+
+#### Option 1: Asking for clarification
+
+**Annual goal:** Given a work task and access to the established workplace routine, when the student encounters an unfamiliar task, change in routine, or is unsure what to do next, the student will **ask an appropriate workplace support person for clarification or assistance** before waiting for adult direction in **4 out of 5 observed opportunities across 3 consecutive work sessions**.
+
+**Baseline data needed:** Frequency with which the student currently asks for clarification independently versus waits for someone to provide direction.
+
+#### Option 2: Initiating a next step
+
+**Annual goal:** Given a familiar work setting and established task expectations, when the student completes a task or reaches a point where the next step is unclear, the student will **independently initiate an appropriate next action by consulting the available task information or asking an appropriate workplace support person** within **2 minutes in 80% of observed opportunities across 3 consecutive work sessions**.
+
+**Baseline data needed:** Current response after task completion or uncertainty, including typical wait time and how often the student initiates a next step without adult prompting.
+
+#### Option 3: Workplace problem-solving sequence
+
+**Annual goal:** When the student encounters a change, problem, or uncertainty during a work task, the student will **initiate a workplace problem-solving response** by checking available task information and, if the answer is not available, asking an appropriate workplace support person for clarification, with **no more than one adult prompt in 4 out of 5 observed opportunities across 3 consecutive work sessions**.
+
+**Baseline data needed:** The student's current level of independence with each part of the sequence: recognizing uncertainty, checking available information, and seeking clarification.
+
+**Review note:** Option 3 may be a strong transition-focused starting point because it includes both independent use of available resources and appropriate help-seeking. The team must still decide which option best fits the student's actual performance data, preferences, and workplace context.
+
 ## Ready to draft?
 
 The AI Drafting Lab helps staff turn a general or de-identified situation into a more deliberate prompt. It does not make a sensitive use automatically appropriate; staff still need to confirm that the tool, information, and purpose are approved and appropriate.
