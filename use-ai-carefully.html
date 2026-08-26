@@ -81,7 +81,41 @@ These are drafting options only. The IEP team must revise the final goal using a
               <p><strong>Review note:</strong> Option 3 may be a strong transition-focused starting point because it includes both independent use of available resources and appropriate help-seeking. The team must still decide which option best fits the student's actual performance data, preferences, and workplace context.</p>
             </details>
           </article>
-          <article class="section-card"><h2>Student data summaries</h2><p>This includes present levels, qualitative work evaluations, transition assessment narratives, and other summaries based on real student records. Even when names are removed, these summaries may still contain indirect identifiers or details that could make a student recognizable, so they belong in a slower, more careful category.</p></article>
+          <article class="section-card">
+            <h2>Student data summaries</h2>
+            <p>This includes present levels, qualitative work evaluations, transition assessment narratives, and other summaries based on real student records. Even when names are removed, these summaries may still contain indirect identifiers or details that could make a student recognizable, so they belong in a slower, more careful category.</p>
+            <details class="example-prompt example-output">
+              <summary>Initial prompt: stop and revise</summary>
+              <p>This prompt would be blocked by the privacy screen because it includes initials, age, disability, school, and city/state details.</p>
+              <p class="example-output__sample">“Summarize the work-evaluation notes for J.D., a 19-year-old student with an intellectual disability at Free State High School in Lawrence, Kansas. He completed a work experience at a local cafeteria and needs extra processing time when learning new tasks.”</p>
+            </details>
+            <details class="example-prompt">
+              <summary>Prompt used</summary>
+              <p>This version keeps the observations that matter for instruction while removing student-specific details.</p>
+              <pre><code>Use the following generalized work-evaluation notes to organize a draft summary.
+
+Notes:
+- Completes familiar multi-step tasks after a visual model.
+- Asks for clarification when a task changes.
+- Benefits from a brief written checklist when learning a new routine.
+- Is building independence with starting the next task after completing the previous one.
+
+Organize the notes under:
+1. Observed strengths
+2. Support needs
+3. Questions for the team to consider</code></pre>
+            </details>
+            <details class="example-prompt example-output">
+              <summary>Draft output</summary>
+              <p>This sample shows how the prompt may organize the generalized notes. It is a draft for team review, not a final present-level statement or evaluation summary.</p>
+              <h3>Observed strengths</h3>
+              <p>Follows familiar multi-step routines after a visual model and asks for clarification when a task changes.</p>
+              <h3>Support needs</h3>
+              <p>May benefit from a brief written checklist when learning a new routine and is building independence with identifying and beginning the next task.</p>
+              <h3>Questions for the team</h3>
+              <p>What supports are most effective when routines change? What baseline data would help define independence with starting the next task?</p>
+            </details>
+          </article>
           <article class="section-card"><h2>Assessment summaries</h2><p>AI should not replace interpretation of transition assessments or contextual judgment.</p></article>
           <article class="section-card"><h2>Placement recommendations</h2><p>AI should not decide services, placements, or readiness.</p></article>
           <article class="section-card"><h2>Student-facing chatbots</h2><p>Direct student interaction raises new concerns about privacy, reliability, and over-reliance.</p></article>

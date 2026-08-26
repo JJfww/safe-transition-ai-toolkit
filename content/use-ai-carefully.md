@@ -48,6 +48,51 @@ For each option:
 These are drafting options only. The IEP team must revise the final goal using actual student data, student preferences, and professional judgment.
 ```
 
+## Student data summaries
+
+This includes present levels, qualitative work evaluations, transition assessment narratives, and other summaries based on real student records. Even when names are removed, these summaries may still contain indirect identifiers or details that could make a student recognizable, so they belong in a slower, more careful category.
+
+### Initial prompt: stop and revise
+
+This prompt would be blocked by the privacy screen because it includes initials, age, disability, school, and city/state details.
+
+> Summarize the work-evaluation notes for J.D., a 19-year-old student with an intellectual disability at Free State High School in Lawrence, Kansas. He completed a work experience at a local cafeteria and needs extra processing time when learning new tasks.
+
+### Prompt used
+
+This version keeps the observations that matter for instruction while removing student-specific details.
+
+```text
+Use the following generalized work-evaluation notes to organize a draft summary.
+
+Notes:
+- Completes familiar multi-step tasks after a visual model.
+- Asks for clarification when a task changes.
+- Benefits from a brief written checklist when learning a new routine.
+- Is building independence with starting the next task after completing the previous one.
+
+Organize the notes under:
+1. Observed strengths
+2. Support needs
+3. Questions for the team to consider
+```
+
+### Draft output
+
+This sample shows how the prompt may organize the generalized notes. It is a draft for team review, not a final present-level statement or evaluation summary.
+
+#### Observed strengths
+
+Follows familiar multi-step routines after a visual model and asks for clarification when a task changes.
+
+#### Support needs
+
+May benefit from a brief written checklist when learning a new routine and is building independence with identifying and beginning the next task.
+
+#### Questions for the team
+
+What supports are most effective when routines change? What baseline data would help define independence with starting the next task?
+
 ### Draft output
 
 This sample shows the kind of options the prompt may produce. It is not a final IEP goal, and the comparison note also requires team review.

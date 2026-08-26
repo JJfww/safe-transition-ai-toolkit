@@ -511,6 +511,13 @@ img {
   line-height: 1.2;
 }
 
+.example-output__sample {
+  border-left: 3px solid var(--clay);
+  color: var(--ink);
+  font-style: italic;
+  padding-left: 0.75rem;
+}
+
 .prompt-copy-row {
   display: flex;
   align-items: center;
