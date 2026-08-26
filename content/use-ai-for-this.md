@@ -15,7 +15,7 @@ This page helps staff identify uses where AI can be a planning or drafting suppo
 - Draft interview practice questions. **Example:** [Open cafeteria interview-practice example (PDF)](Visual%20Supports/Cafeteria-InterviewQuestions.pdf)
 - Brainstorm visual supports. **Example:** [Open visual-support example](Visual%20Supports/WorkExperienceOptions.png)
 - Create task analysis drafts. **Example:** [Open rolling-silverware task analysis (PDF)](Visual%20Supports/RollingSilverwareTaskAnalysis.pdf)
-- Generate role-play scenarios
+- Generate role-play scenarios. **Example:** [Open requesting-time-off role play (PDF)](Visual%20Supports/RequestingTimeOffRolePlay.pdf)
 - Draft family-friendly explanations of transition services
 - Identify possible hidden curriculum in job materials
 - Support planning for community-based instruction
@@ -88,6 +88,24 @@ Show these steps:
 8. Check that the finished roll is closed and neat.
 
 Include a QR code linking to this demonstration video: https://youtu.be/x5BhFVdgxqo?si=Iv2JZk-dsnh9sDOz. Use a clean, easy-to-scan, printable layout. Add a short reminder to review the real workplace routine with staff.
+```
+
+## Requesting-time-off role-play example prompt
+
+The following reviewed script is for practice, not a substitute for the workplace's actual time-off or call-out policy.
+
+```text
+Create a one-page, printable role-play scenario and script for a young adult employee who needs to ask a supervisor for a day off. Use clear, student-friendly language and no real names or identifying information.
+
+Include:
+- A scenario where the employee knows about the need ahead of time.
+- A short employee script that states the date, asks early, and asks what step to complete next.
+- A supervisor response for role-play practice.
+- A respectful closing response from the employee.
+- A separate same-day call-out variation.
+- A brief checklist: ask early when possible, state the date clearly, ask about the next step, repeat the plan if needed, and do not assume the time is approved until the supervisor confirms it.
+
+Make it suitable for printing and practice with a staff member. Remind users to follow the workplace's actual policy.
 ```
 
 ## What still requires human review
