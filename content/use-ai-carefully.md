@@ -29,25 +29,6 @@ This page helps staff recognize when an AI use moves closer to evaluation, recom
 
 AI can offer goal-language options from a fictional or fully generalized skill profile. The IEP team still determines the real goal, baseline, and criteria. Final goals must reflect actual assessment and observation data, student priorities, and team decision-making.
 
-### Copyable prompt
-
-```text
-This is a fictional example for educator practice. Do not treat it as a real student record.
-
-A transition-program student wants to work in food service. During a familiar work routine, the student can follow a visual checklist independently. When a task changes or the student is unsure what to do next, the student often waits for an adult rather than asking a supervisor or job coach for clarification.
-
-Create three possible annual IEP goal options focused on self-advocacy and task initiation in a work setting.
-
-For each option:
-- Use observable, measurable language.
-- Include a condition, student action, and criterion.
-- Keep the goal appropriate for workplace learning.
-- Do not invent assessment data, services, accommodations, or a disability label.
-- Add one short note describing what real baseline data a team would need before finalizing the goal.
-
-These are drafting options only. The IEP team must revise the final goal using actual student data, student preferences, and professional judgment.
-```
-
 ### Example draft output
 
 This sample shows the kind of options the prompt may produce. It is not a final IEP goal, and the comparison note also requires team review.
@@ -71,6 +52,25 @@ This sample shows the kind of options the prompt may produce. It is not a final 
 **Baseline data needed:** The student's current level of independence with each part of the sequence: recognizing uncertainty, checking available information, and seeking clarification.
 
 **Review note:** Option 3 may be a strong transition-focused starting point because it includes both independent use of available resources and appropriate help-seeking. The team must still decide which option best fits the student's actual performance data, preferences, and workplace context.
+
+### Copyable prompt
+
+```text
+This is a fictional example for educator practice. Do not treat it as a real student record.
+
+A transition-program student wants to work in food service. During a familiar work routine, the student can follow a visual checklist independently. When a task changes or the student is unsure what to do next, the student often waits for an adult rather than asking a supervisor or job coach for clarification.
+
+Create three possible annual IEP goal options focused on self-advocacy and task initiation in a work setting.
+
+For each option:
+- Use observable, measurable language.
+- Include a condition, student action, and criterion.
+- Keep the goal appropriate for workplace learning.
+- Do not invent assessment data, services, accommodations, or a disability label.
+- Add one short note describing what real baseline data a team would need before finalizing the goal.
+
+These are drafting options only. The IEP team must revise the final goal using actual student data, student preferences, and professional judgment.
+```
 
 ## Ready to draft?
 
