@@ -25,6 +25,33 @@ This page helps staff recognize when an AI use moves closer to evaluation, recom
 - Whether the output could influence a placement, service, or expectation unfairly
 - Whether stronger documentation, team review, or leadership approval is needed first
 
+## Careful-use example: Drafting IEP goal options
+
+AI can offer goal-language options from a fictional or fully generalized skill profile. The IEP team still determines the real goal, baseline, and criteria.
+
+### What makes this a careful use
+
+Final goals must reflect actual assessment and observation data, student priorities, and team decision-making. AI should not invent a baseline or decide what matters most.
+
+### Copyable prompt
+
+```text
+This is a fictional example for educator practice. Do not treat it as a real student record.
+
+A transition-program student wants to work in food service. During a familiar work routine, the student can follow a visual checklist independently. When a task changes or the student is unsure what to do next, the student often waits for an adult rather than asking a supervisor or job coach for clarification.
+
+Create three possible annual IEP goal options focused on self-advocacy and task initiation in a work setting.
+
+For each option:
+- Use observable, measurable language.
+- Include a condition, student action, and criterion.
+- Keep the goal appropriate for workplace learning.
+- Do not invent assessment data, services, accommodations, or a disability label.
+- Add one short note describing what real baseline data a team would need before finalizing the goal.
+
+These are drafting options only. The IEP team must revise the final goal using actual student data, student preferences, and professional judgment.
+```
+
 ## Ready to draft?
 
 The AI Drafting Lab helps staff turn a general or de-identified situation into a more deliberate prompt. It does not make a sensitive use automatically appropriate; staff still need to confirm that the tool, information, and purpose are approved and appropriate.
