@@ -20,6 +20,25 @@ This page helps staff identify uses where AI can be a planning or drafting suppo
 - Identify possible hidden curriculum in job materials
 - Support planning for community-based instruction
 
+## Visual-support example prompt
+
+The following reviewed prompt created the linked visual-support example. The resulting visual is still a draft to review and adapt for the real learner and setting.
+
+```text
+Create an 11 x 8.5 inch landscape, photo-realistic visual that compares two work-experience options for a student. Divide the page into two equal sections with clear headings, short student-friendly text, and several small, realistic photos. Do not use a cartoon style or real names.
+
+Left section: Adaptive PE Aide
+- Work with elementary or middle school students during activities.
+- Help with activities and equipment.
+- May be assigned to partner with one student.
+
+Right section: Elementary Science Classroom Aide (K-2)
+- Help set up materials.
+- Help young students as directed by the teacher.
+
+Use an easy-to-scan, professional layout with the words included on the visual.
+```
+
 ## What still requires human review
 
 - Whether the output matches the real workplace, community setting, or support need

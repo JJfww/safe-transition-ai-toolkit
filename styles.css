@@ -442,6 +442,37 @@ img {
   margin-top: 1rem;
 }
 
+.example-prompt {
+  margin-top: 0.9rem;
+  color: var(--muted);
+  font-size: 0.86rem;
+}
+
+.example-prompt summary {
+  color: #7f4129;
+  cursor: pointer;
+  font-weight: 800;
+}
+
+.example-prompt p {
+  margin: 0.7rem 0;
+}
+
+.example-prompt pre {
+  max-height: 15rem;
+  overflow: auto;
+  margin: 0;
+  padding: 0.8rem;
+  border: 1px solid rgba(89, 76, 59, 0.12);
+  border-radius: 8px;
+  background: #faf6ef;
+  color: #4d4a41;
+  font-family: var(--sans);
+  font-size: 0.8rem;
+  line-height: 1.55;
+  white-space: pre-wrap;
+}
+
 .section-card:hover,
 .section-card:focus-visible {
   transform: translateY(-3px);
