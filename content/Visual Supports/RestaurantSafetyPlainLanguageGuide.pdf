@@ -1,115 +1,814 @@
 %PDF-1.4
-%“Œ‹ž ReportLab Generated PDF document (opensource)
+%âãÏÓ
 1 0 obj
 <<
-/F1 2 0 R /F2 3 0 R /F3 4 0 R
+/Producer (pypdf)
 >>
 endobj
 2 0 obj
 <<
-/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
+/Type /Pages
+/Count 2
+/Kids [ 4 0 R 11 0 R ]
 >>
 endobj
 3 0 obj
 <<
-/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
+/Type /Catalog
+/Pages 2 0 R
 >>
 endobj
 4 0 obj
 <<
-/BaseFont /Helvetica-Oblique /Encoding /WinAnsiEncoding /Name /F3 /Subtype /Type1 /Type /Font
+/Annots [ 5 0 R ]
+/Contents 6 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font 7 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Parent 2 0 R
 >>
 endobj
 5 0 obj
 <<
 /A <<
-/S /URI /Type /Action /URI (https://www.dir.ca.gov/dosh/dosh_publications/Rsg.pdf)
->> /Border [ 0 0 0 ] /Rect [ 30.24 10.08 581.76 23.76 ] /Subtype /Link /Type /Annot
+/S /URI
+/Type /Action
+/URI (https\072\057\057www\056dir\056ca\056gov\057dosh\057dosh\137publications\057Rsg\056pdf)
+>>
+/Border [ 0 0 0 ]
+/Rect [ 30.24 10.08 581.76 23.76 ]
+/Subtype /Link
+/Type /Annot
 >>
 endobj
 6 0 obj
 <<
-/Annots [ 5 0 R ] /Contents 12 0 R /MediaBox [ 0 0 612 792 ] /Parent 11 0 R /Resources <<
-/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
->> /Rotate 0 
-  /Trans <<
-
->> /Type /Page
+/Filter [ /ASCII85Decode /FlateDecode ]
+/Length 3271
 >>
+stream
+Gb!l!gQ(;P&q0LUn7cr0LEhZ*/T43=R/dPtKBZ\F$NsSY1>UNg/rh3<Vt]Md861l&FJe(fr&0t9h'Gq;W]Cj?@C9%"^q\CuCjO+8^LOHr8m.Uf]0/e5QgF-Ap>at`f2\)mSFO0AA=:<4XHST;pRAu_>JLn`%2UkUJ%afDDJsTYeIq<>/?Oi+1;iJ^)9Yo66'h*N-\1M3`Zc%e8QOuARD!6?^=DhL:6QS3VM6,g61+?>VcL',o@r;,m-Yn+qq=N-aulXR``#`H3CK?KBjT;<hNZPQ\!a'VZ_nIpK'.iYq0#Wa_@Cn?hm0f[O.BmhSJ1S\gL7"XRI/%O4cZFsmFu>]fR.B,b8eQ%,\88*e,W+'Rb3Lta@]MpS1uOf%X#X9rG)3@<#P;+gp?.2NMt)X73OXLkVmdTnZj:L"2!Wja>:Dj=/if=nu@e:\)B'OgMFs6/"YDVSR!Ro-RlRqrlV#n,B,iR)@QkqDBgFQbVXPF'-q59`4=f/B=^o#1+?+AKo)o%DDm90.F_])%TVU.!hT;rimQppQ.uChGA(Uns!uZ72%AqlcfS0`X6K//%HHGu5*+11Yu?Woa0BEL8'\i<+5F!oFO\e:G(qlJ[c;(1e#Cg&?+0Tj;g[l==iBOeh7//=[:gVb('?CHK^T_\D.4!"C!.`:!@d]2XK$N!<k!Y!"YUhJ=mbWC=s[<s@dZ&lB,*H)XR(Sj/DsN`(R3\hKtZm95bl-qd'QW9Bgt"3k8^1\j-.c1+V;p5*kH?Ra#OdPPq8-3L6o\T"u%ZNG_6-Gqt`+NamB9/l]VeUl(XNKku;iVJ$38odq2I_g$EtRHMmD/;#HIaj!h$Fot=N"3iQmAF't!=.Tmomf_l.(V4!GsW*RF71.anOORa)lmbiZ_b,4UOJjW@rLjpJ%,_bt3-U8%\n.F"I$B[Hh))R]H."=N+\Sr.Fg`QU)IB=<o9WGLIajq4'1`IZU#d@P"7WV/+6(aq;5BWLM?.Co@eGR*hMH#`V0**P)Hr-IQW[,&tY``\=:sf9]_L!E[c4I3P')Q(P.^*W7a3?kMKU!WE0p7;l%T`c`8\)a]Cu^#85]*mg0XL@:&,)Pj!1DO<k7dc65/?m*Mu_L'Mk=(=@r-'V%SoO4cR\cb;";YbMXLe[iW]p(,H#l-5/jPsA^*m4MiUnDHl>7)P)!$If.0%b%9*44a77!GWIt&>RWcKa6f;/NJti"[J?m`"mI4Qj5Wlsj'P:EK+]+Pc_'=J2MuX=&$@<:oRgB,r7EUP=:6cV%(Oi8+.gCM.:l+0UcJXTQ0/=rCXoC&lG_Y<CRao+8Y%-jjc"!rDK9\`+pG4l?7fTUp95+`OUoO5$4qjlAMGc=<r.XL-QPOA2B-SsY9[Uk65Qlli&N#>D@V@E0*OCnZUg9M3F0l<"E-1C-+HfLU>pO,sH'5V5-gB.BK-ZG*>QSoJQRJ3H\MgqCSVf$r0HpUIPf49t(TibbW(/nC?$HA(#gcjD":Z#\PTZXsN#&V17M4de-6j6M5[3;]Nsm6Y]UL\M5o6'8#WBhehu\$.:#_F3#_PVA5fq%rPABLri6;Ga`Jgq)C1i$nq9U`MCWoq<ZSujY;.oRCH=`0#SK7=bC5,su3MZHr*36R/#<hYpK1E3o>X2:%b(d3U$L<C?.(p^Rhuk-D!JO%RJBGh-+R+Ka"EEJ^n0<=VjC=b(2=^;7ju9\)#>;=7:o4&,*%-O%\/b,D1:97Xq/Z2XfQBFbL4Pu90X"DY*r]RF`Q[IS$P[WO`^]D^2n^'W]IZ$io[/AM-Uiund4-pGR$&=q)Fc^)+s1pCc4VhU9?E*>KkVu0)^<McbSX7si?KWjlWgTKBjTr/oDN`PicMFj%]h[hG+*>O!s^j]!3ir1k!?n3$G6imW]<0PB9D4hn_F.bm.,g&).T"GOS9)DO<;"=fV'0mk=6XM_$=8MZUEHfMO.e+SP`*:@#&?Q*K?^_]oR:gf>LG8Ai84aPEAutmM^Z=;M3e,9cIj%N<%e[J/D%>mJK(sVGH??`c`7BoPh'=F+"7TfFM_oTGb<iGes&D5cNI,"^7n=7K!o,9<$3a5=L1pO>?H,A8,slcc-jP:I3J(;p`N2#s(DR^aG\00i15k!^o6ir$p1=gJ"5NC&Y89F581290-_`He-SZ2I`e8]QAqF;ih^("2`fHH_(*i8rCd*^@%L[<cjGp"5HI"GT](l"n8s>>>!s!Zb$^li2l,fk6FhBjC+=koo=&*J4tloe*Pc`!3?/O?o[,b;E^+*eA(6;GHA-&D*O$YF'U.")f4NBP^\!u*]k9\\X40]j.nSK+J<>8o%=AX1ug@aW1as$7KX2:mf@8a6U35S;b4Jd/V-VOo;J>tUIG>6B(E1KiJOQ[Q!";'P8cMFgou5(_6UQ(]fXJ3oZ!C*OPdB]JfN9er>]bXFr+Br>HJ.^L]fmr$Xjpb*HO(/j@k%(R%dcl;FL1t.n*EW.tt&190^4#'g.SkC8HaOj&V&9i`6Ch&X7_EKt)#scihre;H-f3`AInV[uEBONC3H]PXFf=-VZ:6p/W[Dip]'bAO[%Qr8FVR>MWF!<SXpnoIif(4RVGBHNKebW+CJqYb==05pe<)FXN!na@7ZMXUN6KeEA#Q_q'>c2<l,'X1>)/Z'r!]X'%6_RPTfNck5EEb4tQ$b\(4U^\`4%m*\;Os$iR;c(JW`HbI!P?J<=D8ab7r>X7lRZC]\hKn&$1Il%EUgu0FI5o5WT_Z_=TaG48M57;1U-k76U,:+Gt>cr=aLh+<g1*1kOiFH@TTUd<qPPt'(4YnR"rfgrmk1PAUU]U$Y&FD/)e#>'+cc)H"T/_Z.It>*l'G&<Wb3S.S!5OX\Lk6/M5]e#!+J/l\8GG$"QNSHA)W=%2+7!17$"?^7:X=jbRfs.'2)bNQ]9E&B!o,hsoA"5q:CmjoO&Q,]H(7?KW+T%UIrJ,p(ZS)5+P96J^5U#)=QlC`4;;4W""Wq.(E?uk)_!pjiAf^j6E2.8"%W,Oai>lp.tSWFKE&$f5LP2Z2B!&nhQA`>Om;ET,Hs*jO'tig?5_V0VOQiKOS3X^?h\lXf0e#9e6@?Us6p.?C0n.$o9ljE#.u(K+QO_*9>[chO6TW3HL.'u9>N!iB9a4EE#H=Q5S&:lWT!iPme)dIhQX,N[I%g^<+8(jY(c-LX^_=ArV8MjI66f9rn*3k)TqfD0<tD7)#FR8=fZF#Yh,drVqLNGAk=>!s6@I4DNb^",itC)E]PbpEW5[^X7Q/2GO<<f`UCkAYBJrRYWr,64Dd0qaQg38Ds)Irh!LkMf]N3$B"JT~>
+endstream
 endobj
 7 0 obj
 <<
-/A <<
-/S /URI /Type /Action /URI (https://www.dir.ca.gov/dosh/dosh_publications/Rsg.pdf)
->> /Border [ 0 0 0 ] /Rect [ 30.24 10.08 581.76 23.76 ] /Subtype /Link /Type /Annot
+/F1 8 0 R
+/F2 9 0 R
+/F3 10 0 R
 >>
 endobj
 8 0 obj
 <<
-/Annots [ 7 0 R ] /Contents 13 0 R /MediaBox [ 0 0 612 792 ] /Parent 11 0 R /Resources <<
-/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
->> /Rotate 0 
-  /Trans <<
-
->> /Type /Page
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
 >>
 endobj
 9 0 obj
 <<
-/PageMode /UseNone /Pages 11 0 R /Type /Catalog
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
 >>
 endobj
 10 0 obj
 <<
-/Author (anonymous) /CreationDate (D:20260826110422-05'00') /Creator (anonymous) /Keywords () /ModDate (D:20260826110422-05'00') /Producer (ReportLab PDF Library - \(opensource\)) 
-  /Subject (unspecified) /Title (untitled) /Trapped /False
+/BaseFont /Helvetica-Oblique
+/Encoding /WinAnsiEncoding
+/Name /F3
+/Subtype /Type1
+/Type /Font
 >>
 endobj
 11 0 obj
 <<
-/Count 2 /Kids [ 6 0 R 8 0 R ] /Type /Pages
+/Annots [ 12 0 R ]
+/Contents 13 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font <<
+/F1 8 0 R
+/F1-0 14 0 R
+/F1-1 15 0 R
+/F2 9 0 R
+/F2-0 16 0 R
+/F2-1 17 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Parent 2 0 R
 >>
 endobj
 12 0 obj
 <<
-/Filter [ /ASCII85Decode /FlateDecode ] /Length 3271
+/A <<
+/S /URI
+/Type /Action
+/URI (https\072\057\057www\056dir\056ca\056gov\057dosh\057dosh\137publications\057Rsg\056pdf)
 >>
-stream
-Gb!l!gQ(;P&q0LUn7cr0LEhZ*/T43=R/dPtKBZ\F$NsSY1>UNg/rh3<Vt]Md861l&FJe(fr&0t9h'Gq;W]Cj?@C9%"^q\CuCjO+8^LOHr8m.Uf]0/e5QgF-Ap>at`f2\)mSFO0AA=:<4XHST;pRAu_>JLn`%2UkUJ%afDDJsTYeIq<>/?Oi+1;iJ^)9Yo66'h*N-\1M3`Zc%e8QOuARD!6?^=DhL:6QS3VM6,g61+?>VcL',o@r;,m-Yn+qq=N-aulXR``#`H3CK?KBjT;<hNZPQ\!a'VZ_nIpK'.iYq0#Wa_@Cn?hm0f[O.BmhSJ1S\gL7"XRI/%O4cZFsmFu>]fR.B,b8eQ%,\88*e,W+'Rb3Lta@]MpS1uOf%X#X9rG)3@<#P;+gp?.2NMt)X73OXLkVmdTnZj:L"2!Wja>:Dj=/if=nu@e:\)B'OgMFs6/"YDVSR!Ro-RlRqrlV#n,B,iR)@QkqDBgFQbVXPF'-q59`4=f/B=^o#1+?+AKo)o%DDm90.F_])%TVU.!hT;rimQppQ.uChGA(Uns!uZ72%AqlcfS0`X6K//%HHGu5*+11Yu?Woa0BEL8'\i<+5F!oFO\e:G(qlJ[c;(1e#Cg&?+0Tj;g[l==iBOeh7//=[:gVb('?CHK^T_\D.4!"C!.`:!@d]2XK$N!<k!Y!"YUhJ=mbWC=s[<s@dZ&lB,*H)XR(Sj/DsN`(R3\hKtZm95bl-qd'QW9Bgt"3k8^1\j-.c1+V;p5*kH?Ra#OdPPq8-3L6o\T"u%ZNG_6-Gqt`+NamB9/l]VeUl(XNKku;iVJ$38odq2I_g$EtRHMmD/;#HIaj!h$Fot=N"3iQmAF't!=.Tmomf_l.(V4!GsW*RF71.anOORa)lmbiZ_b,4UOJjW@rLjpJ%,_bt3-U8%\n.F"I$B[Hh))R]H."=N+\Sr.Fg`QU)IB=<o9WGLIajq4'1`IZU#d@P"7WV/+6(aq;5BWLM?.Co@eGR*hMH#`V0**P)Hr-IQW[,&tY``\=:sf9]_L!E[c4I3P')Q(P.^*W7a3?kMKU!WE0p7;l%T`c`8\)a]Cu^#85]*mg0XL@:&,)Pj!1DO<k7dc65/?m*Mu_L'Mk=(=@r-'V%SoO4cR\cb;";YbMXLe[iW]p(,H#l-5/jPsA^*m4MiUnDHl>7)P)!$If.0%b%9*44a77!GWIt&>RWcKa6f;/NJti"[J?m`"mI4Qj5Wlsj'P:EK+]+Pc_'=J2MuX=&$@<:oRgB,r7EUP=:6cV%(Oi8+.gCM.:l+0UcJXTQ0/=rCXoC&lG_Y<CRao+8Y%-jjc"!rDK9\`+pG4l?7fTUp95+`OUoO5$4qjlAMGc=<r.XL-QPOA2B-SsY9[Uk65Qlli&N#>D@V@E0*OCnZUg9M3F0l<"E-1C-+HfLU>pO,sH'5V5-gB.BK-ZG*>QSoJQRJ3H\MgqCSVf$r0HpUIPf49t(TibbW(/nC?$HA(#gcjD":Z#\PTZXsN#&V17M4de-6j6M5[3;]Nsm6Y]UL\M5o6'8#WBhehu\$.:#_F3#_PVA5fq%rPABLri6;Ga`Jgq)C1i$nq9U`MCWoq<ZSujY;.oRCH=`0#SK7=bC5,su3MZHr*36R/#<hYpK1E3o>X2:%b(d3U$L<C?.(p^Rhuk-D!JO%RJBGh-+R+Ka"EEJ^n0<=VjC=b(2=^;7ju9\)#>;=7:o4&,*%-O%\/b,D1:97Xq/Z2XfQBFbL4Pu90X"DY*r]RF`Q[IS$P[WO`^]D^2n^'W]IZ$io[/AM-Uiund4-pGR$&=q)Fc^)+s1pCc4VhU9?E*>KkVu0)^<McbSX7si?KWjlWgTKBjTr/oDN`PicMFj%]h[hG+*>O!s^j]!3ir1k!?n3$G6imW]<0PB9D4hn_F.bm.,g&).T"GOS9)DO<;"=fV'0mk=6XM_$=8MZUEHfMO.e+SP`*:@#&?Q*K?^_]oR:gf>LG8Ai84aPEAutmM^Z=;M3e,9cIj%N<%e[J/D%>mJK(sVGH??`c`7BoPh'=F+"7TfFM_oTGb<iGes&D5cNI,"^7n=7K!o,9<$3a5=L1pO>?H,A8,slcc-jP:I3J(;p`N2#s(DR^aG\00i15k!^o6ir$p1=gJ"5NC&Y89F581290-_`He-SZ2I`e8]QAqF;ih^("2`fHH_(*i8rCd*^@%L[<cjGp"5HI"GT](l"n8s>>>!s!Zb$^li2l,fk6FhBjC+=koo=&*J4tloe*Pc`!3?/O?o[,b;E^+*eA(6;GHA-&D*O$YF'U.")f4NBP^\!u*]k9\\X40]j.nSK+J<>8o%=AX1ug@aW1as$7KX2:mf@8a6U35S;b4Jd/V-VOo;J>tUIG>6B(E1KiJOQ[Q!";'P8cMFgou5(_6UQ(]fXJ3oZ!C*OPdB]JfN9er>]bXFr+Br>HJ.^L]fmr$Xjpb*HO(/j@k%(R%dcl;FL1t.n*EW.tt&190^4#'g.SkC8HaOj&V&9i`6Ch&X7_EKt)#scihre;H-f3`AInV[uEBONC3H]PXFf=-VZ:6p/W[Dip]'bAO[%Qr8FVR>MWF!<SXpnoIif(4RVGBHNKebW+CJqYb==05pe<)FXN!na@7ZMXUN6KeEA#Q_q'>c2<l,'X1>)/Z'r!]X'%6_RPTfNck5EEb4tQ$b\(4U^\`4%m*\;Os$iR;c(JW`HbI!P?J<=D8ab7r>X7lRZC]\hKn&$1Il%EUgu0FI5o5WT_Z_=TaG48M57;1U-k76U,:+Gt>cr=aLh+<g1*1kOiFH@TTUd<qPPt'(4YnR"rfgrmk1PAUU]U$Y&FD/)e#>'+cc)H"T/_Z.It>*l'G&<Wb3S.S!5OX\Lk6/M5]e#!+J/l\8GG$"QNSHA)W=%2+7!17$"?^7:X=jbRfs.'2)bNQ]9E&B!o,hsoA"5q:CmjoO&Q,]H(7?KW+T%UIrJ,p(ZS)5+P96J^5U#)=QlC`4;;4W""Wq.(E?uk)_!pjiAf^j6E2.8"%W,Oai>lp.tSWFKE&$f5LP2Z2B!&nhQA`>Om;ET,Hs*jO'tig?5_V0VOQiKOS3X^?h\lXf0e#9e6@?Us6p.?C0n.$o9ljE#.u(K+QO_*9>[chO6TW3HL.'u9>N!iB9a4EE#H=Q5S&:lWT!iPme)dIhQX,N[I%g^<+8(jY(c-LX^_=ArV8MjI66f9rn*3k)TqfD0<tD7)#FR8=fZF#Yh,drVqLNGAk=>!s6@I4DNb^",itC)E]PbpEW5[^X7Q/2GO<<f`UCkAYBJrRYWr,64Dd0qaQg38Ds)Irh!LkMf]N3$B"JT~>endstream
+/Border [ 0 0 0 ]
+/Rect [ 30.24 10.08 581.76 23.76 ]
+/Subtype /Link
+/Type /Annot
+>>
 endobj
 13 0 obj
 <<
-/Filter [ /ASCII85Decode /FlateDecode ] /Length 3380
+/Length 14181
 >>
 stream
-Gb"/)=c_@J&Us1U_5HXGiR!adF'\o\]a'WA0g$*d!=T)N21&LgC8muGm0W@D;^AE$P)jSn[bi&DR$j\i@NFN2+">/QK)`+Q=W`=lo8S"bF"H<=h!@G!b#I0o<W$sFO]>O2.MK*;o!F53G?RFl)"';Q)k4a$U4NRoG!BeRP.AV2,uk:JA.hsh<8-bXJj^lhSKQ$bJeLCrN4,ZU-E/E!`6NfChd>]?R3%$Q`7oaN^CkJZnE3M!?M2X_c#;V(#A7G7Al2P8)64t'^sG&tZb59H@o:@l3>Jl!T?aEVRH8>7IuHijHNQLW#CSS?Ae\/sNe=L4VDdG-T*K=Y4SITEV"hK=g]$8<:LN7ge[>3j'[V3X/I^r\Z^h=GQPSa];5O\P"#5\8ja!7AKo[\:P8"S$.M<`RapislUR.f!CWC6jA]NlBP0i6nabiJ%3QWkoKe-2h:eOj/rco[14=s]j@IUY\OBe&+EoXi<6qTp'W*t*C<7i6O+%eDZK4;GiWD)Y8fROHp1,%Wl0\20=Pa4_CPZ4>$/&1DpIU`KQQ/r!CPmK'ukVMNJotHcHoZQ4\hK1Zh6:2sZDM27Y(Y`8<r?UfC1QG@<:]9go3:u[!cmSc7G!gb`91\FBJ+Tr[bt`B#CsD[ad+qadnQol`c:9\'DoR6./WHd7434;Pre')?CnTFY3H`0ZZ<0HK%\'7FAP$@CJ].c(NZ4/(5L!_=Z';jjou;o8<l3:+6_+L&bf`nGU-*X\rA5qPBEX2F\OE$M9^2,*:s*aQ(XWFZ/K'@jd.im(Ph7`CU's@e`c7,.@Z(Z'N=p/Yq6iY3r>;-aP5b[85@*b-"5lg,*h0SQ4Wp2]`3/M)iCrmtUkMcK)o*8+dmK3I)4+>L;K/V:b!P1I@g5_,f[2!<&AnYMLgh)[`%WrPBHZ!Q!!>d;A,ud$:lmrFi!I\Z&e&.]Vut^D)HK&OkCC]VC.tM;#s$SE^DM#+4WqZsHE]Bnp:feZ7+4H$Z,crRUFg@ci2Lj3!G>XQ]hap63NPoPI>"WR5+Ghr3(6\\(I1M/!-FC-;AQ)acT#Ja/Q5+Z0I<fOA2aUg/?:7'B$6EMYh@Hp;F](YA_b,V(c8=A\7!IRaK>O_eJeTp_PSX[[mTbX-NNiHf71Pd*_TR87CX*scOaoa^`at-Z>r]JYtmVPJ@_h$qj4S5(2(E/C;AOt=@+4**L1r&4/N3'VFVS6(s^*Nk=l85(IQS$!oh2u.3b@M)"F+5&C68fGc1mr=F#9h2>DZWCfU6['n<;7-icbQkHZYo[XERBJA=!OCM\8M+.?oSC;2kUj94sWWC:M,%>a@I=RCF<)#BLD_<I[R."LMT_0unX;V:0s;?o'%G_ZJkpRhWIT4[$`&aZ/3CanUNqf3"U!Hm6+WY)Es`GCM<>'\kP0]R5Q"N(AW+S#M!a0pPo8^f]`3U1<3T:Ce[OmYXfU.Q3c.MZ?.X?nC5>c*+"@%`,^C*79;%8a(S.MYc>W\gLQ`FUNt#?se]f"PBE'ei)<Qi?;r&dLRfU!`8k3BlM3Z5$e>jMfL$m3hZ+>VPng/r`M.]SX+l(jIPhGV5F3E8%=Dj;nnObok#+i2mPr=J15SB$*8+HL(gpXXGrC72`Wa.RGT#O^:Ep=r+f&W!A;hH$VZNs!C,)HbnH8q@!^cndG52k%%OE*)S<22#j/:j2#hM@lMi:ZuWhG&7ii)()/L*n;6I%dXiZ`#>YAQ#*Re-VMJsJ#E"3:I"F/!BgE?A"5-3`<^'cK,,UX-]F2Y!-U;B#G>lrlB0VctZPNY;Qj2Ag:d'BXT8h?2FHQEh*L<BKVlRT8$`OgF*i3H+W<5SE1m"7(3u!tq6tI*X95IK94A*f4;[9Uj1ou)7@,PIF+qNk94g8oSNdKRj:aoU.?GTh>2_Mk5PA,f-E'*Y.2,>53F*_i@*,X@lqj,6#0ubdjKFD,((U4"o,QS"*L]p19$+i_tb[Dja!JuUbTbk"$7PEb[#[a0"&q"t]iQI&Y^/.5m6:L+Ub2`*hq)9=ghg9-kr-X(c04E6Ih:Vs9n'.Q*FaNNk!0JZ6ps=QdbX@Bi*3!+lGU@L*LSoJ,*RoTN*#]B`(HOYenLOh7$TkQt>=ps-^0Ha2#,J`3#b"?W>mm%*"((3-h1je'NGfoX[M_b%!T`-%=H`Z/clqKs^noX(Xq=icCYH*JEnGFm>H3(=`?LIB^<.YdJi!j<6ueV`mX[A*3j?HHZH-LHb<0!?1!f3/4jS`>15jY79d^rs?S7bcgu<nB1#or,mEK&*$_CW+RBoC4I-L8q:Kh#lNL@_sn#p)(^O(_0EK@"P.r^L#)h/u8TY0N4r;alnVXL+$eXr(o>nf\U;%2M%)a'fg8oUEEDc4,97"/.t@'=.hK-IYca?<"Qm0+]K-o1Tefb7Oe6kYOP,2,<CQOH8FB`-$%o?RTtA8!T:eZ[-:?81&$qTjV6YGUXj(lYWlNj1Y-,kc2EIGu9Qb$u;@%L=P>@^nHAW#WU)%gXF4GUdo&G\7I2],@!6WiUf?Q980`%]oGU5gk7^EX/t626;28*)BR[ZofDZD0*4@&g9)rC!Te1?Fie#gUY$Wdo.pf'ndc<*"GpTP[JVn:_8P:%gO@3K2*F@W2tP\2a[k^WW9D,6!#?P-TL<</V?e=cplTjo&50dLV6(LQ@SNfHX-a+?MB((al*A=_nJ(sdD(EeUYB\\[!R&;+XE?^7)V0l!EgjgF:nn;:hD7f)9FB`@Lk.\QjJb6>r!<1pI$u]`0B3d,oZ'e!(U?@3'p't_oh$2H2]`CU'oepItZK:@p8aa!`0WDK'U/*c(irUo`CNN3]%u71.*9K7Lg4GRos(]iHa?J#;mWuEW\UFd".QXZS6,!4/`Beau\+f>`^BIE50u1s!1-/maDX'M<4mOoVM`aW2G\?%MAQGT;O'o`A<C,"pElr!^p`0''"3B,PSu=#9D<E36Ma6`'FVP29j!?*pfO@A1?hHqf9eXXPj"K]Lrn1U\<U,N;NT"%R*0r6eG$Qi%nU7-G:;s"F\`HHnGWXd=%_NG57K=(9<PX^[6fYq`O5ZlVHi!JT]487]XZNs*7nSCqZuYh8_i`$O/NBeQ)?b]+t3gR-6G*$LqIHi(.m"h`ghab2S?\!O7Cq>OjW."Sa^Tl!<o2qL/$\,EtB5*8R9)n'81UZ*0J`,=p-+=2MLH0J\:1$:$l<=c67Ih#V[DI'a(bS,8b9=8A[P-+R;[DEljWpW$<YGI,">p'o^5No&fD39]<eghM@+bHS(/5O,ZXYI[2]^L.$;;S4_\jQAfrl2U!eD#4HI7e_&!5B5`BmgnDZUYBK9I[Q\-JHK9m-0`$SBC9NtPWHi6O87__I[Z;WeVb6Adn+GH6.T5rp$Z7(qf2(Rr9H?"[ZF%Li:4dUnP1.7]7i+Oo08LY)r1~>endstream
+q
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+.988235 .976471 .94902 rg
+n 0 0 612 792 re f*
+.254902 .329412 .219608 rg
+BT /F2 21 Tf 25.2 TL ET
+BT 1 0 0 1 30.24 752.4 Tm (Safety at Work: What To Do) Tj T* ET
+.145098 .137255 .121569 rg
+BT /F1 9.5 Tf 11.4 TL ET
+BT 1 0 0 1 30.24 736.56 Tm (Use these examples to practice your response. Follow your workplace's actual procedure.) Tj T* ET
+.607843 .294118 .168627 rg
+n 30.24 727.2 90 2 re f*
+.960784 .937255 .894118 rg
+n
+39.24 663.84 m
+572.76 663.84 l
+577.7352 663.84 581.76 667.8648 581.76 672.84 c
+581.76 698.04 l
+581.76 703.0152 577.7352 707.04 572.76 707.04 c
+39.24 707.04 l
+34.2648 707.04 30.24 703.0152 30.24 698.04 c
+30.24 672.84 l
+30.24 667.8648 34.2648 663.84 39.24 663.84 c
+h
+f*
+.145098 .137255 .121569 rg
+BT /F2 9.2 Tf 11.04 TL ET
+BT 1 0 0 1 41.76 687.6 Tm (When you are unsure, do not guess. Stop, move away from the hazard if needed, and ask a supervisor.) Tj T* ET
+.972549 .933333 .901961 rg
+n
+40.24 551.52 m
+288.8 551.52 l
+294.328 551.52 298.8 555.992 298.8 561.52 c
+298.8 658.16 l
+298.8 663.688 294.328 668.16 288.8 668.16 c
+40.24 668.16 l
+34.712 668.16 30.24 663.688 30.24 658.16 c
+30.24 561.52 l
+30.24 555.992 34.712 551.52 40.24 551.52 c
+h
+f*
+.847059 .811765 .756863 RG
+n
+40.24 551.52 m
+288.8 551.52 l
+294.328 551.52 298.8 555.992 298.8 561.52 c
+298.8 658.16 l
+298.8 663.688 294.328 668.16 288.8 668.16 c
+40.24 668.16 l
+34.712 668.16 30.24 663.688 30.24 658.16 c
+30.24 561.52 l
+30.24 555.992 34.712 551.52 40.24 551.52 c
+h
+S
+.607843 .294118 .168627 rg
+BT /F2 12 Tf 14.4 TL ET
+BT 1 0 0 1 41.76 646.56 Tm (A spill or wet floor) Tj T* ET
+.607843 .294118 .168627 rg
+n
+47.376 627.48 m
+47.376 629.1899 45.98987 630.576 44.28 630.576 c
+42.57013 630.576 41.184 629.1899 41.184 627.48 c
+41.184 625.7701 42.57013 624.384 44.28 624.384 c
+45.98987 624.384 47.376 625.7701 47.376 627.48 c
+f*
+.145098 .137255 .121569 rg
+BT /F1 9.5 Tf 11.4 TL ET
+BT 1 0 0 1 53.28 626.4 Tm (Keep others from walking into the area if you can do so) Tj T* ET
+BT 1 0 0 1 53.28 616.32 Tm (safely.) Tj T* ET
+.607843 .294118 .168627 rg
+n
+47.376 601.56 m
+47.376 603.2699 45.98987 604.656 44.28 604.656 c
+42.57013 604.656 41.184 603.2699 41.184 601.56 c
+41.184 599.8501 42.57013 598.464 44.28 598.464 c
+45.98987 598.464 47.376 599.8501 47.376 601.56 c
+f*
+.145098 .137255 .121569 rg
+BT /F1 9.5 Tf 11.4 TL ET
+BT 1 0 0 1 53.28 600.48 Tm (Tell the supervisor and follow the workplace spill) Tj T* ET
+BT 1 0 0 1 53.28 590.4 Tm (procedure.) Tj T* ET
+.941176 .94902 .913725 rg
+n
+323.2 551.52 m
+571.76 551.52 l
+577.288 551.52 581.76 555.992 581.76 561.52 c
+581.76 658.16 l
+581.76 663.688 577.288 668.16 571.76 668.16 c
+323.2 668.16 l
+317.672 668.16 313.2 663.688 313.2 658.16 c
+313.2 561.52 l
+313.2 555.992 317.672 551.52 323.2 551.52 c
+h
+f*
+.847059 .811765 .756863 RG
+n
+323.2 551.52 m
+571.76 551.52 l
+577.288 551.52 581.76 555.992 581.76 561.52 c
+581.76 658.16 l
+581.76 663.688 577.288 668.16 571.76 668.16 c
+323.2 668.16 l
+317.672 668.16 313.2 663.688 313.2 658.16 c
+313.2 561.52 l
+313.2 555.992 317.672 551.52 323.2 551.52 c
+h
+S
+.254902 .329412 .219608 rg
+BT /F2 12 Tf 14.4 TL ET
+BT 1 0 0 1 324.72 646.56 Tm (A blocked aisle or exit) Tj T* ET
+.254902 .329412 .219608 rg
+n
+330.336 627.48 m
+330.336 629.1899 328.9499 630.576 327.24 630.576 c
+325.5301 630.576 324.144 629.1899 324.144 627.48 c
+324.144 625.7701 325.5301 624.384 327.24 624.384 c
+328.9499 624.384 330.336 625.7701 330.336 627.48 c
+f*
+.145098 .137255 .121569 rg
+BT /F1 9.5 Tf 11.4 TL ET
+BT 1 0 0 1 336.24 626.4 Tm (Do not leave boxes, carts, or supplies in the path.) Tj T* ET
+.254902 .329412 .219608 rg
+n
+330.336 608.04 m
+330.336 609.7499 328.9499 611.136 327.24 611.136 c
+325.5301 611.136 324.144 609.7499 324.144 608.04 c
+324.144 606.3301 325.5301 604.944 327.24 604.944 c
+328.9499 604.944 330.336 606.3301 330.336 608.04 c
+f*
+.145098 .137255 .121569 rg
+BT /F1 9.5 Tf 11.4 TL ET
+BT 1 0 0 1 336.24 606.96 Tm (Put materials away or tell a supervisor right away.) Tj T* ET
+.941176 .94902 .913725 rg
+n
+40.24 418.32 m
+288.8 418.32 l
+294.328 418.32 298.8 422.792 298.8 428.32 c
+298.8 524.96 l
+298.8 530.488 294.328 534.96 288.8 534.96 c
+40.24 534.96 l
+34.712 534.96 30.24 530.488 30.24 524.96 c
+30.24 428.32 l
+30.24 422.792 34.712 418.32 40.24 418.32 c
+h
+f*
+.847059 .811765 .756863 RG
+n
+40.24 418.32 m
+288.8 418.32 l
+294.328 418.32 298.8 422.792 298.8 428.32 c
+298.8 524.96 l
+298.8 530.488 294.328 534.96 288.8 534.96 c
+40.24 534.96 l
+34.712 534.96 30.24 530.488 30.24 524.96 c
+30.24 428.32 l
+30.24 422.792 34.712 418.32 40.24 418.32 c
+h
+S
+.254902 .329412 .219608 rg
+BT /F2 12 Tf 14.4 TL ET
+BT 1 0 0 1 41.76 513.36 Tm (New or moving equipment) Tj T* ET
+.254902 .329412 .219608 rg
+n
+47.376 494.28 m
+47.376 495.9899 45.98987 497.376 44.28 497.376 c
+42.57013 497.376 41.184 495.9899 41.184 494.28 c
+41.184 492.5701 42.57013 491.184 44.28 491.184 c
+45.98987 491.184 47.376 492.5701 47.376 494.28 c
+f*
+.145098 .137255 .121569 rg
+BT /F1 9.5 Tf 11.4 TL ET
+BT 1 0 0 1 53.28 493.2 Tm (Do not start until someone has trained you.) Tj T* ET
+.254902 .329412 .219608 rg
+n
+47.376 474.84 m
+47.376 476.5499 45.98987 477.936 44.28 477.936 c
+42.57013 477.936 41.184 476.5499 41.184 474.84 c
+41.184 473.1301 42.57013 471.744 44.28 471.744 c
+45.98987 471.744 47.376 473.1301 47.376 474.84 c
+f*
+.145098 .137255 .121569 rg
+BT /F1 9.5 Tf 11.4 TL ET
+BT 1 0 0 1 53.28 473.76 Tm (Keep hands, hair, clothing, and jewelry away from) Tj T* ET
+BT 1 0 0 1 53.28 463.68 Tm (moving parts.) Tj T* ET
+.972549 .933333 .901961 rg
+n
+323.2 418.32 m
+571.76 418.32 l
+577.288 418.32 581.76 422.792 581.76 428.32 c
+581.76 524.96 l
+581.76 530.488 577.288 534.96 571.76 534.96 c
+323.2 534.96 l
+317.672 534.96 313.2 530.488 313.2 524.96 c
+313.2 428.32 l
+313.2 422.792 317.672 418.32 323.2 418.32 c
+h
+f*
+.847059 .811765 .756863 RG
+n
+323.2 418.32 m
+571.76 418.32 l
+577.288 418.32 581.76 422.792 581.76 428.32 c
+581.76 524.96 l
+581.76 530.488 577.288 534.96 571.76 534.96 c
+323.2 534.96 l
+317.672 534.96 313.2 530.488 313.2 524.96 c
+313.2 428.32 l
+313.2 422.792 317.672 418.32 323.2 418.32 c
+h
+S
+.607843 .294118 .168627 rg
+BT /F2 12 Tf 14.4 TL ET
+BT 1 0 0 1 324.72 513.36 Tm (A cleaning chemical) Tj T* ET
+.607843 .294118 .168627 rg
+n
+330.336 494.28 m
+330.336 495.9899 328.9499 497.376 327.24 497.376 c
+325.5301 497.376 324.144 495.9899 324.144 494.28 c
+324.144 492.5701 325.5301 491.184 327.24 491.184 c
+328.9499 491.184 330.336 492.5701 330.336 494.28 c
+f*
+.145098 .137255 .121569 rg
+BT /F1 9.5 Tf 11.4 TL ET
+BT 1 0 0 1 336.24 493.2 Tm (Use it only after training and only as directed by the) Tj T* ET
+BT 1 0 0 1 336.24 483.12 Tm (workplace label.) Tj T* ET
+.607843 .294118 .168627 rg
+n
+330.336 468.36 m
+330.336 470.0699 328.9499 471.456 327.24 471.456 c
+325.5301 471.456 324.144 470.0699 324.144 468.36 c
+324.144 466.6501 325.5301 465.264 327.24 465.264 c
+328.9499 465.264 330.336 466.6501 330.336 468.36 c
+f*
+.145098 .137255 .121569 rg
+BT /F1 9.5 Tf 11.4 TL ET
+BT 1 0 0 1 336.24 467.28 Tm (Ask where to find the Safety Data Sheet \(SDS\) if you) Tj T* ET
+BT 1 0 0 1 336.24 457.2 Tm (need more information.) Tj T* ET
+.972549 .933333 .901961 rg
+n
+40.24 285.12 m
+288.8 285.12 l
+294.328 285.12 298.8 289.592 298.8 295.12 c
+298.8 391.76 l
+298.8 397.288 294.328 401.76 288.8 401.76 c
+40.24 401.76 l
+34.712 401.76 30.24 397.288 30.24 391.76 c
+30.24 295.12 l
+30.24 289.592 34.712 285.12 40.24 285.12 c
+h
+f*
+.847059 .811765 .756863 RG
+n
+40.24 285.12 m
+288.8 285.12 l
+294.328 285.12 298.8 289.592 298.8 295.12 c
+298.8 391.76 l
+298.8 397.288 294.328 401.76 288.8 401.76 c
+40.24 401.76 l
+34.712 401.76 30.24 397.288 30.24 391.76 c
+30.24 295.12 l
+30.24 289.592 34.712 285.12 40.24 285.12 c
+h
+S
+.607843 .294118 .168627 rg
+BT /F2 12 Tf 14.4 TL ET
+BT 1 0 0 1 41.76 380.16 Tm (You need to reach something high) Tj T* ET
+.607843 .294118 .168627 rg
+n
+47.376 361.08 m
+47.376 362.7899 45.98987 364.176 44.28 364.176 c
+42.57013 364.176 41.184 362.7899 41.184 361.08 c
+41.184 359.3701 42.57013 357.984 44.28 357.984 c
+45.98987 357.984 47.376 359.3701 47.376 361.08 c
+f*
+.145098 .137255 .121569 rg
+BT /F1 9.5 Tf 11.4 TL ET
+BT 1 0 0 1 53.28 360 Tm (Do not climb on a chair, cart, or bucket.) Tj T* ET
+.607843 .294118 .168627 rg
+n
+47.376 341.64 m
+47.376 343.3499 45.98987 344.736 44.28 344.736 c
+42.57013 344.736 41.184 343.3499 41.184 341.64 c
+41.184 339.9301 42.57013 338.544 44.28 338.544 c
+45.98987 338.544 47.376 339.9301 47.376 341.64 c
+f*
+.145098 .137255 .121569 rg
+BT /F1 9.5 Tf 11.4 TL ET
+BT 1 0 0 1 53.28 340.56 Tm (Ask for the correct equipment or help from staff.) Tj T* ET
+.941176 .94902 .913725 rg
+n
+323.2 285.12 m
+571.76 285.12 l
+577.288 285.12 581.76 289.592 581.76 295.12 c
+581.76 391.76 l
+581.76 397.288 577.288 401.76 571.76 401.76 c
+323.2 401.76 l
+317.672 401.76 313.2 397.288 313.2 391.76 c
+313.2 295.12 l
+313.2 289.592 317.672 285.12 323.2 285.12 c
+h
+f*
+.847059 .811765 .756863 RG
+n
+323.2 285.12 m
+571.76 285.12 l
+577.288 285.12 581.76 289.592 581.76 295.12 c
+581.76 391.76 l
+581.76 397.288 577.288 401.76 571.76 401.76 c
+323.2 401.76 l
+317.672 401.76 313.2 397.288 313.2 391.76 c
+313.2 295.12 l
+313.2 289.592 317.672 285.12 323.2 285.12 c
+h
+S
+.254902 .329412 .219608 rg
+BT /F2 12 Tf 14.4 TL ET
+BT 1 0 0 1 324.72 380.16 Tm (You feel unsafe or confused) Tj T* ET
+.254902 .329412 .219608 rg
+n
+330.336 361.08 m
+330.336 362.7899 328.9499 364.176 327.24 364.176 c
+325.5301 364.176 324.144 362.7899 324.144 361.08 c
+324.144 359.3701 325.5301 357.984 327.24 357.984 c
+328.9499 357.984 330.336 359.3701 330.336 361.08 c
+f*
+.145098 .137255 .121569 rg
+BT /F1 9.5 Tf 11.4 TL ET
+BT 1 0 0 1 336.24 360 Tm (Pause the task and explain what you are unsure about.) Tj T* ET
+.254902 .329412 .219608 rg
+n
+330.336 341.64 m
+330.336 343.3499 328.9499 344.736 327.24 344.736 c
+325.5301 344.736 324.144 343.3499 324.144 341.64 c
+324.144 339.9301 325.5301 338.544 327.24 338.544 c
+328.9499 338.544 330.336 339.9301 330.336 341.64 c
+f*
+.145098 .137255 .121569 rg
+BT /F1 9.5 Tf 11.4 TL ET
+BT 1 0 0 1 336.24 340.56 Tm (Ask: \223Can you show me the safe way to do this?\224) Tj T* ET
+.145098 .137255 .121569 rg
+BT /F2 11 Tf 13.2 TL ET
+BT 1 0 0 1 30.24 79.2 Tm (Words to know) Tj T* ET
+BT /F1 8.8 Tf 10.56 TL ET
+BT 1 0 0 1 30.24 61.2 Tm (Hazard: something that could hurt someone.  |  SDS: a safety information sheet for a chemical.  |  Procedure: the workplace's steps for doing a task.) Tj T* ET
+.847059 .811765 .756863 RG
+n 30.24 39.6 m 581.76 39.6 l S
+.368627 .352941 .321569 rg
+BT /F1 7.4 Tf 8.88 TL ET
+BT 1 0 0 1 30.24 26.64 Tm (Plain-language learning summary based on the California OSHA Restaurant Employees Workplace Safety & Health Guide \(2024\).) Tj T* ET
+.254902 .329412 .219608 rg
+BT /F3 7.4 Tf 8.88 TL ET
+BT 1 0 0 1 30.24 14.4 Tm (https://www.dir.ca.gov/dosh/dosh_publications/Rsg.pdf) Tj T* ET
+ 
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+0.988235 0.976471 0.94902 rg
+n
+21.6 50.4 568.8 115.2 re
+f*
+0.941176 0.94902 0.913725 rg
+n
+40.24 73.44 m
+571.76 73.44 l
+577.288 73.44 581.76 77.912 581.76 83.44 c
+581.76 146.24 l
+581.76 151.768 577.288 156.24 571.76 156.24 c
+40.24 156.24 l
+34.712 156.24 30.24 151.768 30.24 146.24 c
+30.24 83.44 l
+30.24 77.912 34.712 73.44 40.24 73.44 c
+h
+f*
+0.847059 0.811765 0.756863 RG
+n
+40.24 73.44 m
+571.76 73.44 l
+577.288 73.44 581.76 77.912 581.76 83.44 c
+581.76 146.24 l
+581.76 151.768 577.288 156.24 571.76 156.24 c
+40.24 156.24 l
+34.712 156.24 30.24 151.768 30.24 146.24 c
+30.24 83.44 l
+30.24 77.912 34.712 73.44 40.24 73.44 c
+h
+S
+0.254902 0.329412 0.219608 rg
+BT
+/F2-0 12 Tf
+14.4 TL
+ET
+BT
+1 0 0 1 41.76 136.08 Tm
+(Words to know) Tj
+T*
+ET
+0.254902 0.329412 0.219608 rg
+BT
+/F2-0 9.2 Tf
+11.04 TL
+ET
+BT
+1 0 0 1 41.76 114.48 Tm
+(Hazard) Tj
+T*
+ET
+0.145098 0.137255 0.121569 rg
+BT
+/F1-0 8.1 Tf
+9.72 TL
+ET
+BT
+1 0 0 1 41.76 100.08 Tm
+(Something that could hurt someone\056) Tj
+T*
+ET
+0.847059 0.811765 0.756863 RG
+n
+212.16 83.52 m
+212.16 120.96 l
+S
+0.607843 0.294118 0.168627 rg
+BT
+/F2-0 9.2 Tf
+11.04 TL
+ET
+BT
+1 0 0 1 217.92 114.48 Tm
+(Safety Data Sheet \050SDS\051) Tj
+T*
+ET
+0.145098 0.137255 0.121569 rg
+BT
+/F1-0 8.1 Tf
+9.72 TL
+ET
+BT
+1 0 0 1 217.92 100.08 Tm
+(A document with safety information about a) Tj
+T*
+ET
+BT
+1 0 0 1 217.92 90.72 Tm
+(chemical\056) Tj
+T*
+ET
+0.847059 0.811765 0.756863 RG
+n
+388.32 83.52 m
+388.32 120.96 l
+S
+0.254902 0.329412 0.219608 rg
+BT
+/F2-0 9.2 Tf
+11.04 TL
+ET
+BT
+1 0 0 1 394.08 114.48 Tm
+(Procedure) Tj
+T*
+ET
+0.145098 0.137255 0.121569 rg
+BT
+/F1-0 8.1 Tf
+9.72 TL
+ET
+BT
+1 0 0 1 394.08 100.08 Tm
+(The steps your workplace wants you to follow\056) Tj
+T*
+ET
+Q
+
+
+Q
+
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-1 12 Tf
+14.4 TL
+ET
+0.988235 0.976471 0.94902 rg
+n
+0 50.4 612 115.2 re
+f*
+0.941176 0.94902 0.913725 rg
+n
+40.24 73.44 m
+571.76 73.44 l
+577.288 73.44 581.76 77.912 581.76 83.44 c
+581.76 146.24 l
+581.76 151.768 577.288 156.24 571.76 156.24 c
+40.24 156.24 l
+34.712 156.24 30.24 151.768 30.24 146.24 c
+30.24 83.44 l
+30.24 77.912 34.712 73.44 40.24 73.44 c
+h
+f*
+0.847059 0.811765 0.756863 RG
+n
+40.24 73.44 m
+571.76 73.44 l
+577.288 73.44 581.76 77.912 581.76 83.44 c
+581.76 146.24 l
+581.76 151.768 577.288 156.24 571.76 156.24 c
+40.24 156.24 l
+34.712 156.24 30.24 151.768 30.24 146.24 c
+30.24 83.44 l
+30.24 77.912 34.712 73.44 40.24 73.44 c
+h
+S
+0.254902 0.329412 0.219608 rg
+BT
+/F2-1 12 Tf
+14.4 TL
+ET
+BT
+1 0 0 1 41.76 136.08 Tm
+(Words to know) Tj
+T*
+ET
+0.254902 0.329412 0.219608 rg
+BT
+/F2-1 9.2 Tf
+11.04 TL
+ET
+BT
+1 0 0 1 41.76 114.48 Tm
+(Hazard) Tj
+T*
+ET
+0.145098 0.137255 0.121569 rg
+BT
+/F1-1 8.1 Tf
+9.72 TL
+ET
+BT
+1 0 0 1 41.76 100.08 Tm
+(Something that could hurt someone\056) Tj
+T*
+ET
+0.847059 0.811765 0.756863 RG
+n
+212.16 83.52 m
+212.16 120.96 l
+S
+0.607843 0.294118 0.168627 rg
+BT
+/F2-1 9.2 Tf
+11.04 TL
+ET
+BT
+1 0 0 1 217.92 114.48 Tm
+(Safety Data Sheet \050SDS\051) Tj
+T*
+ET
+0.145098 0.137255 0.121569 rg
+BT
+/F1-1 8.1 Tf
+9.72 TL
+ET
+BT
+1 0 0 1 217.92 100.08 Tm
+(A document with safety information about a) Tj
+T*
+ET
+BT
+1 0 0 1 217.92 90.72 Tm
+(chemical\056) Tj
+T*
+ET
+0.847059 0.811765 0.756863 RG
+n
+388.32 83.52 m
+388.32 120.96 l
+S
+0.254902 0.329412 0.219608 rg
+BT
+/F2-1 9.2 Tf
+11.04 TL
+ET
+BT
+1 0 0 1 394.08 114.48 Tm
+(Procedure) Tj
+T*
+ET
+0.145098 0.137255 0.121569 rg
+BT
+/F1-1 8.1 Tf
+9.72 TL
+ET
+BT
+1 0 0 1 394.08 100.08 Tm
+(The steps your workplace wants you to follow\056) Tj
+T*
+ET
+Q
+
+
+endstream
+endobj
+14 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+15 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+16 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+17 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
 endobj
 xref
-0 14
+0 18
 0000000000 65535 f 
-0000000061 00000 n 
-0000000112 00000 n 
-0000000219 00000 n 
-0000000331 00000 n 
-0000000446 00000 n 
-0000000640 00000 n 
-0000000853 00000 n 
-0000001047 00000 n 
-0000001260 00000 n 
-0000001329 00000 n 
-0000001591 00000 n 
-0000001657 00000 n 
-0000005020 00000 n 
+0000000015 00000 n 
+0000000054 00000 n 
+0000000120 00000 n 
+0000000169 00000 n 
+0000000376 00000 n 
+0000000603 00000 n 
+0000003966 00000 n 
+0000004018 00000 n 
+0000004125 00000 n 
+0000004237 00000 n 
+0000004353 00000 n 
+0000004646 00000 n 
+0000004874 00000 n 
+0000019109 00000 n 
+0000019217 00000 n 
+0000019325 00000 n 
+0000019438 00000 n 
 trailer
 <<
-/ID 
-[<f14821c2e9a94ef51339db3606b8c440><f14821c2e9a94ef51339db3606b8c440>]
-% ReportLab generated PDF document -- digest (opensource)
-
-/Info 10 0 R
-/Root 9 0 R
-/Size 14
+/Size 18
+/Root 3 0 R
+/Info 1 0 R
 >>
 startxref
-8492
+19551
 %%EOF
