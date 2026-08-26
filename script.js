@@ -280,7 +280,7 @@ const privacyDetectors = [
   {
     id: "location",
     severity: "red",
-    regex: /\b[A-Z][a-z]+(?:\s+[A-Z][a-z]+)?\,\s?(?:AL|AK|AZ|AR|CA|CO|CT|DE|FL|GA|HI|IA|ID|IL|IN|KS|KY|LA|MA|MD|ME|MI|MN|MO|MS|MT|NC|ND|NE|NH|NJ|NM|NV|NY|OH|OK|OR|PA|RI|SC|SD|TN|TX|UT|VA|VT|WA|WI|WV|WY)\b/g,
+    regex: /\b[A-Z][a-z]+(?:\s+[A-Z][a-z]+)?\,\s?(?:AL|AK|AZ|AR|CA|CO|CT|DE|FL|GA|HI|IA|ID|IL|IN|KS|KY|LA|MA|MD|ME|MI|MN|MO|MS|MT|NC|ND|NE|NH|NJ|NM|NV|NY|OH|OK|OR|PA|RI|SC|SD|TN|TX|UT|VA|VT|WA|WI|WV|WY|Alabama|Alaska|Arizona|Arkansas|California|Colorado|Connecticut|Delaware|Florida|Georgia|Hawaii|Idaho|Illinois|Indiana|Iowa|Kansas|Kentucky|Louisiana|Maine|Maryland|Massachusetts|Michigan|Minnesota|Mississippi|Missouri|Montana|Nebraska|Nevada|New Hampshire|New Jersey|New Mexico|New York|North Carolina|North Dakota|Ohio|Oklahoma|Oregon|Pennsylvania|Rhode Island|South Carolina|South Dakota|Tennessee|Texas|Utah|Vermont|Virginia|Washington|West Virginia|Wisconsin|Wyoming)\b/g,
     message: "Possible city or state reference found",
     suggestion: "Generalize the town, city, or state reference if it is not essential.",
   },
@@ -304,9 +304,9 @@ const privacyDetectors = [
     id: "medical",
     severity: "red",
     regex:
-      /\b(?:medical history|diagnosis|diagnosed with|medication|therapy|hospitalized|autism|adhd|intellectual disability|emotional disturbance|traumatic brain injury)\b/gi,
-    message: "Possible protected disability or medical detail found",
-    suggestion: "Keep only the minimum protected detail needed, or generalize it further.",
+      /\b(?:medical history|diagnosis|diagnosed with|medication|therapy|hospitalized|autism|adhd|add|intellectual disability|developmental disability|learning disability|specific learning disability|emotional disturbance|traumatic brain injury|cerebral palsy|down syndrome|deaf|hard of hearing|visual impairment|orthopedic impairment|other health impairment|speech or language impairment)\b/gi,
+    message: "Possible disability type or medical detail found",
+    suggestion: "Do not include disability or medical details unless the approved tool and the specific task truly require the minimum necessary information.",
   },
 ];
 
