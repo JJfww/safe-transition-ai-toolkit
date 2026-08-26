@@ -127,7 +127,9 @@ Clearly label the result as a learning summary, not workplace policy or legal ad
 - Whether the suggested examples are realistic for the student or instructional context
 - Whether any of the draft content should be revised before sharing with a student or family
 
-## Information staff should not enter casually
+## Do not enter real student information into AI tools
+
+For this toolkit, the safer default is simple: use fictional or fully generalized examples. Do not enter real student information, even when a detail seems routine or harmless.
 
 - Student names or identifiable details
 - IEP information
