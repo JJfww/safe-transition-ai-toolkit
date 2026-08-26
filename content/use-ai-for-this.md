@@ -72,18 +72,20 @@ Use clear, student-friendly language and include questions about introductions, 
 
 ## Rolling-silverware task-analysis example prompt
 
-The following reviewed prompt created the linked instructional handout. Confirm the sequence, materials, and safety expectations with the actual workplace before teaching it.
+This reviewed sequence was assembled from reference photos and the linked demonstration video. Confirm the sequence, materials, and safety expectations with the actual workplace before teaching it.
 
 ```text
 Create a one-page, letter-size task analysis for rolling silverware in a cafeteria or dining setting. Use photo-realistic visuals and plain-language written steps. The materials are one square cloth napkin, one fork, one knife, and one spoon. Do not use real names or identifying information.
 
 Show these steps:
-1. Lay the clean cloth napkin flat.
-2. Place the fork, knife, and spoon together in the center.
-3. Fold the bottom corner up over the utensil handles.
-4. Fold the left side toward the center.
-5. Fold the right side toward the center.
-6. Roll the napkin tightly and tuck the end so it stays closed.
+1. Spread the napkin flat on the table.
+2. Turn the napkin so the seam is facing up.
+3. Fold the napkin diagonally to make a triangle.
+4. Put down the knife first, then the fork, then the spoon, keeping them somewhat stacked.
+5. Fold one side over the silverware.
+6. Fold the other side over the silverware and keep the seam facing up.
+7. Roll from the bottom until the napkin is tight.
+8. Check that the finished roll is closed and neat.
 
 Include a QR code linking to this demonstration video: https://youtu.be/x5BhFVdgxqo?si=Iv2JZk-dsnh9sDOz. Use a clean, easy-to-scan, printable layout. Add a short reminder to review the real workplace routine with staff.
 ```
