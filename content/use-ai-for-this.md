@@ -11,7 +11,7 @@ This page helps staff identify uses where AI can be a planning or drafting suppo
 ## Example use cases
 
 - Rewrite information in plain language
-- Create job-specific vocabulary practice
+- Create job-specific vocabulary practice. **Example:** [Open bakery vocabulary example (PDF)](Visual%20Supports/VocabularyList.pdf)
 - Draft interview practice questions
 - Brainstorm visual supports. **Example:** [Open visual-support example](Visual%20Supports/WorkExperienceOptions.png)
 - Create task analysis drafts
@@ -37,6 +37,27 @@ Right section: Elementary Science Classroom Aide (K-2)
 - Help young students as directed by the teacher.
 
 Use an easy-to-scan, professional layout with the words included on the visual.
+```
+
+## Bakery vocabulary example prompt
+
+The following reviewed prompt created the linked bakery vocabulary example. Check the final visual against the student's real tasks before using it for instruction.
+
+```text
+Create a one-page, letter-size vocabulary visual for a student beginning work in a bakery. Use a clean, easy-to-scan layout with photo-realistic pictures and a printed word for each term. Do not use a cartoon style, real names, or identifying information.
+
+Include these bakery words:
+- Proofing
+- Dough
+- Yeast
+- Convection oven
+- Shape
+- Rise
+- Knead
+- Mixer
+- Dough hook
+
+Use one clear image per word, plain-language labels, and high-contrast, readable text. Show real bakery equipment and processes, not decorative food imagery. Keep the page suitable for printing and reviewing with a student.
 ```
 
 ## What still requires human review
