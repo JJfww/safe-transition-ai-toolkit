@@ -10,7 +10,7 @@ This page helps staff identify uses where AI can be a planning or drafting suppo
 
 ## Example use cases
 
-- Rewrite information in plain language
+- Rewrite information in plain language. **Example:** [Open restaurant-safety rewrite (PDF)](Visual%20Supports/RestaurantSafetyPlainLanguageGuide.pdf). **Source:** [Cal/OSHA Restaurant Employees Workplace Safety & Health Guide](https://www.dir.ca.gov/dosh/dosh_publications/Rsg.pdf)
 - Create job-specific vocabulary practice. **Example:** [Open bakery vocabulary example (PDF)](Visual%20Supports/VocabularyList.pdf)
 - Draft interview practice questions. **Example:** [Open cafeteria interview-practice example (PDF)](Visual%20Supports/Cafeteria-InterviewQuestions.pdf)
 - Brainstorm visual supports. **Example:** [Open visual-support example](Visual%20Supports/WorkExperienceOptions.png)
@@ -106,6 +106,18 @@ Include:
 - A brief checklist: ask early when possible, state the date clearly, ask about the next step, repeat the plan if needed, and do not assume the time is approved until the supervisor confirms it.
 
 Make it suitable for printing and practice with a staff member. Remind users to follow the workplace's actual policy.
+```
+
+## Plain-language restaurant-safety example prompt
+
+This example rewrites selected ideas from a public safety guide. It is a learning summary, not legal advice or a replacement for workplace training and policy.
+
+```text
+Using the “Overview of Restaurant Safety” section of the public California OSHA Restaurant Employees Workplace Safety & Health Guide (2024), create a one-page, plain-language safety guide for a young adult beginning work in a restaurant or cafeteria.
+
+Keep the core safety meaning, but do not copy the source word for word or add rules that are not in the source. Use short sentences, clear headings, and practical reminders. Cover training before new tasks, clear walkways and exits, wet-floor and trip hazards, safe equipment use, ladder safety, chemical safety, and when to ask a supervisor for help.
+
+Clearly label the result as a learning summary, not workplace policy or legal advice. Tell the reader to follow the actual workplace's procedures. Include a link to the original public source: https://www.dir.ca.gov/dosh/dosh_publications/Rsg.pdf. Do not include names, student information, or employer-specific details.
 ```
 
 ## What still requires human review

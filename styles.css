@@ -453,6 +453,19 @@ img {
   margin-top: 1rem;
 }
 
+.resource-source {
+  margin: 0.75rem 0 0;
+  color: var(--muted);
+  font-size: 0.88rem;
+  line-height: 1.45;
+}
+
+.resource-source a {
+  color: #7f4129;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.18em;
+}
+
 .example-prompt {
   margin-top: 0.9rem;
   color: var(--muted);
