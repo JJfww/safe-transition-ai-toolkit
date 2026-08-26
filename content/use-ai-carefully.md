@@ -34,8 +34,6 @@ AI can offer goal-language options from a fictional or fully generalized skill p
 This prompt uses a fictional student profile to model the goal-drafting process without sharing a real record. Final goals must reflect actual assessment and observation data, student priorities, and team decision-making.
 
 ```text
-This is a fictional example for educator practice. Do not treat it as a real student record.
-
 A transition-program student wants to work in food service. During a familiar work routine, the student can follow a visual checklist independently. When a task changes or the student is unsure what to do next, the student often waits for an adult rather than asking a supervisor or job coach for clarification.
 
 Create three possible annual IEP goal options focused on self-advocacy and task initiation in a work setting.
