@@ -1,4 +1,4 @@
-# AI Drafting Lab for Transition Work
+# AI Drafting Lab for Transition and Special Education Work
 
 Status: draft
 
