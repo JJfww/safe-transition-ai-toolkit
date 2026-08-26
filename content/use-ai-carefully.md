@@ -25,6 +25,10 @@ This page helps staff recognize when an AI use moves closer to evaluation, recom
 - Whether the output could influence a placement, service, or expectation unfairly
 - Whether stronger documentation, team review, or leadership approval is needed first
 
+## Ready to draft?
+
+The AI Drafting Lab helps staff turn a general or de-identified situation into a more deliberate prompt. It does not make a sensitive use automatically appropriate; staff still need to confirm that the tool, information, and purpose are approved and appropriate.
+
 ## Information staff should not enter casually
 
 - Protected student records
