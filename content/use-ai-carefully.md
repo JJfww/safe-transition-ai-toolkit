@@ -25,13 +25,9 @@ This page helps staff recognize when an AI use moves closer to evaluation, recom
 - Whether the output could influence a placement, service, or expectation unfairly
 - Whether stronger documentation, team review, or leadership approval is needed first
 
-## Careful-use example: Drafting IEP goal options
+## IEP-related language: drafting goal options
 
-AI can offer goal-language options from a fictional or fully generalized skill profile. The IEP team still determines the real goal, baseline, and criteria.
-
-### What makes this a careful use
-
-Final goals must reflect actual assessment and observation data, student priorities, and team decision-making. AI should not invent a baseline or decide what matters most.
+AI can offer goal-language options from a fictional or fully generalized skill profile. The IEP team still determines the real goal, baseline, and criteria. Final goals must reflect actual assessment and observation data, student priorities, and team decision-making.
 
 ### Copyable prompt
 
