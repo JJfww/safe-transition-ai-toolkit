@@ -33,6 +33,20 @@ This page helps staff recognize when an AI use moves closer to evaluation, recom
 - Draft recommendations about placements or services framed as if already decided
 - Any prompt content that the team would not be comfortable defending later
 
+## Questions to ask before using a district-provided AI tool
+
+Access does not automatically tell staff which data uses the district has approved. Before entering identifiable student information, ask:
+
+- Am I using the district-managed education version with my staff account?
+- Has the district approved identifiable student information for this specific purpose?
+- What uses are allowed, limited, or prohibited?
+- What privacy, retention, access, and data-loss-prevention controls apply?
+- Who can answer questions when a use falls into a gray area?
+
+Google states that Gemini used with a Google Workspace for Education account has enterprise-grade protections: chats and uploaded files are not reviewed by humans or used to improve generative AI models. That may support a district-approved use, but it does not replace local policy, a legitimate educational purpose, minimum-necessary information, or human review.
+
+Read: [Google's education data-handling guidance](https://support.google.com/gemini/answer/14620100?co=DASHER._Family%3DEducation&hl=en) and [U.S. Department of Education guidance on online tools and FERPA](https://studentprivacy.ed.gov/faq/i-want-use-online-tool-or-application-part-my-course-however-i-am-worried-it-violation-ferpa).
+
 ## A concrete example: initials are not enough on their own
 
 Even in a district-approved tool, replacing a student's name with initials does not automatically make a prompt safe. A disability, a particular job site, a teacher, a school, or an unusual set of needs can still make the student recognizable to people who know the context.
