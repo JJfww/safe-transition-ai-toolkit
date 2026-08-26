@@ -482,6 +482,54 @@ img {
   margin: 0.7rem 0;
 }
 
+.prompt-copy-row {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  margin: 0.8rem 0 0.5rem;
+}
+
+.prompt-copy-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  min-height: 2.25rem;
+  padding: 0.45rem 0.7rem;
+  border: 1px solid rgba(93, 112, 81, 0.52);
+  border-radius: 999px;
+  background: #fffdf8;
+  color: var(--ink);
+  cursor: pointer;
+  font: inherit;
+  font-size: 0.82rem;
+  font-weight: 800;
+}
+
+.prompt-copy-button:hover {
+  background: #edf0e7;
+}
+
+.prompt-copy-button:focus-visible {
+  outline: 3px solid rgba(155, 75, 43, 0.4);
+  outline-offset: 3px;
+}
+
+.prompt-copy-button svg {
+  width: 1rem;
+  height: 1rem;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.8;
+}
+
+.prompt-copy-status {
+  color: #49633e;
+  font-size: 0.8rem;
+  font-weight: 800;
+}
+
 .example-prompt pre {
   max-height: 15rem;
   overflow: auto;

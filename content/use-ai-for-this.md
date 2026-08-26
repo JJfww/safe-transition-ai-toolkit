@@ -113,9 +113,9 @@ Make it suitable for printing and practice with a staff member. Remind users to 
 This example rewrites selected ideas from a public safety guide. It is a learning summary, not legal advice or a replacement for workplace training and policy.
 
 ```text
-Using the “Overview of Restaurant Safety” section of the public California OSHA Restaurant Employees Workplace Safety & Health Guide (2024), create a one-page, plain-language safety guide for a young adult beginning work in a restaurant or cafeteria.
+Using the “Overview of Restaurant Safety” section of the public California OSHA Restaurant Employees Workplace Safety & Health Guide (2024), create a two-page, plain-language safety guide for a young adult beginning work in a restaurant or cafeteria.
 
-Keep the core safety meaning, but do not copy the source word for word or add rules that are not in the source. Use short sentences, clear headings, and practical reminders. Cover training before new tasks, clear walkways and exits, wet-floor and trip hazards, safe equipment use, ladder safety, chemical safety, and when to ask a supervisor for help.
+Keep the core safety meaning, but do not copy the source word for word or add rules that are not in the source. Use short sentences, clear headings, and practical reminders. Cover training before new tasks, clear walkways and exits, wet-floor and trip hazards, safe equipment use, ladder safety, chemical safety, and when to ask a supervisor for help. On the second page, use concrete “what to do” situations and briefly define terms such as hazard, Safety Data Sheet (SDS), and procedure.
 
 Clearly label the result as a learning summary, not workplace policy or legal advice. Tell the reader to follow the actual workplace's procedures. Include a link to the original public source: https://www.dir.ca.gov/dosh/dosh_publications/Rsg.pdf. Do not include names, student information, or employer-specific details.
 ```

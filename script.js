@@ -576,3 +576,46 @@ if (clearLabButton && labForm && generatedPrompt) {
     evaluatePrivacyScreen();
   });
 }
+
+async function copyTextToClipboard(text) {
+  try {
+    await navigator.clipboard.writeText(text);
+  } catch {
+    const fallback = document.createElement("textarea");
+    fallback.value = text;
+    fallback.setAttribute("readonly", "");
+    fallback.style.position = "fixed";
+    fallback.style.opacity = "0";
+    document.body.append(fallback);
+    fallback.select();
+    document.execCommand("copy");
+    fallback.remove();
+  }
+}
+
+for (const promptDetails of document.querySelectorAll(".example-prompt")) {
+  const promptCode = promptDetails.querySelector("pre code");
+  const promptPre = promptDetails.querySelector("pre");
+  if (!promptCode || !promptPre) continue;
+
+  const copyRow = document.createElement("div");
+  copyRow.className = "prompt-copy-row";
+  const copyButton = document.createElement("button");
+  copyButton.className = "prompt-copy-button";
+  copyButton.type = "button";
+  copyButton.innerHTML = `<svg aria-hidden="true" viewBox="0 0 24 24"><rect x="8" y="8" width="11" height="12" rx="2"></rect><path d="M16 8V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h3"></path></svg><span>Copy prompt</span>`;
+  copyButton.setAttribute("aria-label", "Copy this example prompt");
+  const copyStatusText = document.createElement("span");
+  copyStatusText.className = "prompt-copy-status";
+  copyStatusText.setAttribute("aria-live", "polite");
+  copyRow.append(copyButton, copyStatusText);
+  promptPre.before(copyRow);
+
+  copyButton.addEventListener("click", async () => {
+    await copyTextToClipboard(promptCode.textContent.trim());
+    copyStatusText.textContent = "Copied";
+    window.setTimeout(() => {
+      copyStatusText.textContent = "";
+    }, 1800);
+  });
+}
