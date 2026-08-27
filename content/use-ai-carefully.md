@@ -160,6 +160,19 @@ These conversations can be unreliable, may invite personal disclosure, and can b
 
 Read: [IES on K-12 AI guardrails](https://nces.ed.gov/learn/blog/ai-k-12-education-good-bad-and-guardrails-consider) and [EDSAFE guidance for AI companions in education](https://www.edsafeai.org/safieaichatbots).
 
+## Stored prompts, chats, and notebooks
+
+Storage is not automatically a reason to avoid a tool. It is a reason to know what the tool keeps and whether the district has approved that specific use.
+
+Before entering any student-related information, staff should be able to answer:
+
+- Are prompts, uploads, and outputs retained, and for how long?
+- Who can view, share, export, or administer that content?
+- Is the content used to train or improve an AI model?
+- Is this a district-managed core service, an additional service, or a consumer tool?
+
+Read: [Google's distinction between Education Core and Additional Services](https://knowledge.workspace.google.com/admin/getting-started/editions/service-categories-available-to-google-workspace-for-education-users) and the [U.S. Department of Education's online-tool terms checklist](https://studentprivacy.ed.gov/resources/protecting-student-privacy-while-using-online-educational-services-model-terms-service).
+
 ### Draft output
 
 This sample shows the kind of options the prompt may produce. It is not a final IEP goal, and the comparison note also requires team review.
