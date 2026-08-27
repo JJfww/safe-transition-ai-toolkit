@@ -152,6 +152,14 @@ Do not ask AI to determine, rank, or recommend a student's placement, services, 
 
 Those decisions require the student's voice, valid information, professional judgment, and the appropriate team process. AI can help an educator organize a generalized agenda or explain a process, but it must not be used to steer the decision itself.
 
+## Student-facing chatbots: never use AI for this
+
+Do not direct students to a general-purpose or companion chatbot for individualized transition guidance, self-advocacy coaching, emotional support, or decisions about work, services, or adult life.
+
+These conversations can be unreliable, may invite personal disclosure, and can blur the student's relationship with an educator, counselor, job coach, or trusted adult. Students need a real person who can understand context, respond responsibly, and follow through.
+
+Read: [IES on K-12 AI guardrails](https://nces.ed.gov/learn/blog/ai-k-12-education-good-bad-and-guardrails-consider) and [EDSAFE guidance for AI companions in education](https://www.edsafeai.org/safieaichatbots).
+
 ### Draft output
 
 This sample shows the kind of options the prompt may produce. It is not a final IEP goal, and the comparison note also requires team review.
