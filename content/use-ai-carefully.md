@@ -93,6 +93,59 @@ May benefit from a brief written checklist when learning a new routine and is bu
 
 What supports are most effective when routines change? What baseline data would help define independence with starting the next task?
 
+## Transition assessment summaries
+
+Transition assessments often contain interests, support needs, work history, goals, and community details. A student name is not the only identifier: a named employer, school, provider, or distinctive job history can still make a student recognizable.
+
+### Initial prompt: stop and revise
+
+Do not paste a student's assessment response with named work sites, schools, service providers, or other details that could identify them. This is true even when the student's name is removed.
+
+> “Summarize this student's transition assessment. They worked at [named restaurant], receive services from [named provider], and want to work at [named hospital]. They attend [named high school].”
+
+### Prompt used
+
+Keep only information the educator needs to organize for review. Replace named settings with general categories and ask the tool to stay within the supplied information.
+
+```text
+Organize the following generalized transition-assessment responses into a draft summary for educator review.
+
+Responses:
+- Interested in food service and health-care support work.
+- Has completed community-based work experiences in a restaurant and a health-care setting.
+- Prefers learning by watching a model, trying the task, and using a short written checklist.
+- Wants to practice speaking with supervisors and asking for clarification when routines change.
+- Is interested in learning more about transportation options for getting to work.
+
+Use these headings:
+1. Interests and preferences
+2. Work and learning strengths
+3. Support needs and skills to develop
+4. Questions for the student and team
+
+Do not add information, infer a disability, recommend a placement or service, or make conclusions beyond these responses. This is an organized draft for educator and student review.
+```
+
+### Draft output
+
+This is an organizational starting point, not an interpretation of the assessment or a final transition plan.
+
+#### Interests and preferences
+
+Interested in food service and health-care support work. Interested in learning more about transportation options for getting to work.
+
+#### Work and learning strengths
+
+Has experience in restaurant and health-care settings. Prefers learning through a model, hands-on practice, and a short written checklist.
+
+#### Support needs and skills to develop
+
+Wants to practice speaking with supervisors and asking for clarification when routines change.
+
+#### Questions for the student and team
+
+Which parts of food service or health-care support work are most appealing? What transportation options are realistic and available? What workplace supports have been effective during work experiences?
+
 ### Draft output
 
 This sample shows the kind of options the prompt may produce. It is not a final IEP goal, and the comparison note also requires team review.
