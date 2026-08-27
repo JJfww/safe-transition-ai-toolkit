@@ -146,6 +146,12 @@ Wants to practice speaking with supervisors and asking for clarification when ro
 
 Which parts of food service or health-care support work are most appealing? What transportation options are realistic and available? What workplace supports have been effective during work experiences?
 
+## Placement recommendations: never use AI for this
+
+Do not ask AI to determine, rank, or recommend a student's placement, services, program, eligibility, or readiness for an opportunity.
+
+Those decisions require the student's voice, valid information, professional judgment, and the appropriate team process. AI can help an educator organize a generalized agenda or explain a process, but it must not be used to steer the decision itself.
+
 ### Draft output
 
 This sample shows the kind of options the prompt may produce. It is not a final IEP goal, and the comparison note also requires team review.

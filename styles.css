@@ -493,6 +493,15 @@ img {
   font-size: 0.86rem;
 }
 
+.never-use-label {
+  margin: 0 0 0.5rem;
+  color: #9b3f2e;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
 .example-prompt summary {
   color: #7f4129;
   cursor: pointer;
