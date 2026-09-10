@@ -136,7 +136,8 @@
             </ul>
           </div>
           <div class="lab-layout lab-layout--framed">
-            <form id="ai-lab-form" class="lab-panel" novalidate>
+            <div id="ai-lab-form" class="lab-panel" role="region" aria-label="AI Drafting Lab">
+              <p id="screening-unavailable" class="field-help" role="status">Screening unavailable. Text entry and generation are disabled. Enable JavaScript and reload; if this message remains, try again later.</p>
               <div class="lab-panel__header">
                 <span class="signature-shell__leaf" aria-hidden="true"></span>
                 <span>AI Drafting Lab</span>
@@ -155,24 +156,26 @@
               <div class="lab-section">
                 <label class="field-label" for="source-text" id="source-text-label">Step 2: Paste source text</label>
                 <p class="field-help" id="source-text-help">Use short workplace text that staff could reasonably review and discuss, such as a rule, task description, training excerpt, or supervisor expectation.</p>
-                <textarea id="source-text" name="sourceText" rows="10" placeholder="Paste workplace text here. Remove names and identifying details first."></textarea>
+                <textarea id="source-text" disabled autocomplete="off" spellcheck="false" aria-describedby="source-text-help" rows="10" placeholder="Paste workplace text here. Remove names and identifying details first."></textarea>
               </div>
 
               <fieldset class="lab-section">
                 <legend class="field-label" id="privacy-legend">Step 3: Privacy screening</legend>
-                <p class="field-help" id="privacy-help">This conservative, client-side screen looks for likely identifying details and blocks prompt generation until the text appears adequately de-identified. It is a teaching and review aid, not a FERPA compliance decision.</p>
+                <p class="field-help" id="privacy-help">All three drafting areas use the same browser-based identifier checks. The area changes tasks and review emphasis, not detection strength. These checks are a teaching and review aid, not a FERPA compliance decision. Changing capitalization does not remove an identifier.</p>
                 <div class="privacy-screen privacy-screen--pending" id="privacy-screen">
                   <div class="privacy-screen__top">
                     <span class="privacy-signal privacy-signal--pending" id="privacy-signal">Needs review</span>
-                    <button class="button button--secondary button--small" type="button" id="privacy-rescan">Re-check text</button>
+                    <button class="button button--secondary button--small" type="button" id="privacy-rescan" disabled>Re-check text</button>
                   </div>
-                  <p class="field-help" id="privacy-status-copy">Paste text to run the privacy screen.</p>
+                  <p class="field-help" id="privacy-status-copy" role="status">Paste text to run the privacy screen.</p>
                   <ul class="tight-list privacy-flags" id="privacy-flags"></ul>
                   <div class="privacy-preview" id="privacy-preview" hidden>
                     <p class="privacy-preview__label">Flagged-text preview</p>
                     <p class="privacy-preview__text" id="privacy-preview-text"></p>
                   </div>
                 </div>
+                <p class="field-help">This screen cannot guarantee that text is safe to share. It may miss names, places, medical terms, and combinations only you recognize. Remove private details and retain only the minimum functional information permitted for this task.</p>
+                <label class="purpose-card"><input type="checkbox" id="context-review" disabled /> <span>I reviewed names and places, sensitive details, and combinations such as exact schedules, small groups, unusual events, and distinctive support needs. I removed or generalized details that could identify someone and kept only information permitted for this task and approved tool.</span></label>
               </fieldset>
 
               <fieldset class="lab-section">
@@ -182,10 +185,10 @@
               </fieldset>
 
               <div class="lab-actions">
-                <button class="button button--primary" type="submit" id="generate-prompt">Generate prompt</button>
+                <button class="button button--primary" type="button" id="generate-prompt" disabled>Generate prompt</button>
                 <button class="button button--secondary" type="button" id="clear-lab">Clear</button>
               </div>
-            </form>
+            </div>
 
             <aside class="lab-output-panel">
               <div class="lab-section">
@@ -193,7 +196,7 @@
                 <p class="field-help" id="generated-prompt-help">Copy this prompt into an approved AI tool only after completing the privacy check.</p>
                 <textarea id="generated-prompt" rows="16" readonly placeholder="Your prompt will appear here."></textarea>
                 <div class="lab-actions">
-                  <button class="button button--primary" type="button" id="copy-prompt">Copy prompt</button>
+                  <button class="button button--primary" type="button" id="copy-prompt" disabled>Copy prompt</button>
                   <span class="status-message" id="copy-status" aria-live="polite"></span>
                 </div>
               </div>

@@ -856,7 +856,8 @@ input[type="radio"] {
   letter-spacing: 0.03em;
 }
 
-.privacy-signal--pending {
+.privacy-signal--pending,
+.privacy-signal--review {
   background: rgba(127, 117, 100, 0.14);
   color: #5b5143;
 }
@@ -1833,4 +1834,9 @@ body[data-page="home"] .site-nav a {
   .page-hero--lab h1 {
     max-width: 100%;
   }
+}
+
+/* Keep flagged previews hidden when the current scan has no findings. */
+.privacy-preview[hidden] {
+  display: none;
 }

@@ -39,11 +39,11 @@ const areaConfigs = {
       "Paste workplace text here. Remove names and identifying details first.",
     purposeHelp:
       "Choose the kind of staff support you want to draft. The task changes the prompt structure and review emphasis.",
-    privacyLegend: "Step 3: Anonymity screening",
+    privacyLegend: "Step 3: Identifier checks and contextual review",
     privacyHelp:
-      "For hidden curriculum work, the main concern is keeping the text anonymous and not sharing workplace-sensitive information unnecessarily. This conservative screen checks for likely identifiers; it is a teaching and review aid, not a FERPA compliance decision.",
+      "All three areas use the same browser-based identifier checks. The area changes drafting tasks and review emphasis, not detection strength. This is a teaching and review aid, not a FERPA compliance decision. Changing capitalization does not remove an identifier.",
     generatedHelp:
-      "Copy this prompt into an approved AI tool only after the privacy screen shows Clear to continue.",
+      "Review this prompt and copy it into an approved AI tool only after checking identifiers and completing contextual review.",
     reviewHelp:
       "The prompt may produce useful ideas, but the output still needs educator review before it becomes instruction, feedback, or a support plan.",
     purposes: [
@@ -93,11 +93,11 @@ const areaConfigs = {
       "Paste de-identified IEP source text here. Remove names, dates, and protected details first.",
     purposeHelp:
       "Choose the drafting task you want help structuring. These prompts are for drafting support only, not final team decisions.",
-    privacyLegend: "Step 3: PHI / protected-information screening",
+    privacyLegend: "Step 3: Identifier checks and contextual review",
     privacyHelp:
-      "For IEP drafting, this safety step matters most. This conservative screen looks for likely identifiers and should show Clear to continue before you generate a prompt. It is a teaching and review aid, not a FERPA compliance decision.",
+      "All three areas use the same browser-based identifier checks. The area changes drafting tasks and review emphasis, not detection strength. This is a teaching and review aid, not a FERPA compliance decision. Changing capitalization does not remove an identifier.",
     generatedHelp:
-      "Copy this prompt into an approved AI tool only after the privacy screen shows Clear to continue.",
+      "Review this prompt and copy it into an approved AI tool only after checking identifiers and completing contextual review.",
     reviewHelp:
       "IEP drafting needs stronger review. Check that the output is individualized, accurate, defensible, and aligned with actual student data and team judgment.",
     purposes: [
@@ -105,19 +105,19 @@ const areaConfigs = {
         value: "present_levels",
         label: "Summarize present levels",
         template: ({ sourceText }) =>
-          `Use the following de-identified source notes to draft a present levels summary for educator review.\n\nSource text:\n${sourceText}\n\nPlease:\n1. Organize the information into a clear present levels draft.\n2. Separate strengths, current performance, supports, and areas of need when the source text supports that distinction.\n3. Keep the language specific and educationally useful.\n4. Do not invent data or overstate conclusions.\n5. Flag anything that is missing, unclear, or needs confirmation from the team.\n6. Keep this as a draft for human revision, not a final IEP statement.`,
+          `Use the following source notes to draft a present levels summary for educator review.\n\nSource text:\n${sourceText}\n\nPlease:\n1. Organize the information into a clear present levels draft.\n2. Separate strengths, current performance, supports, and areas of need when the source text supports that distinction.\n3. Keep the language specific and educationally useful.\n4. Do not invent data or overstate conclusions.\n5. Flag anything that is missing, unclear, or needs confirmation from the team.\n6. Keep this as a draft for human revision, not a final IEP statement.`,
       },
       {
         value: "iep_goal",
         label: "Draft annual goal options",
         template: ({ sourceText }) =>
-          `Use the following de-identified source notes to draft possible annual goal language for educator review.\n\nSource text:\n${sourceText}\n\nPlease:\n1. Draft 2 to 3 possible annual goal options based only on the information provided.\n2. Keep the goals measurable and instructionally meaningful when the source text supports that.\n3. Note the skill area each goal addresses.\n4. Identify any parts that still need baseline data, clearer criteria, or team confirmation.\n5. Do not make placement, service, or readiness decisions.\n6. Keep this as draft language for revision by the educator and team.`,
+          `Use the following source notes to draft possible annual goal language for educator review.\n\nSource text:\n${sourceText}\n\nPlease:\n1. Draft 2 to 3 possible annual goal options based only on the information provided.\n2. Keep the goals measurable and instructionally meaningful when the source text supports that.\n3. Note the skill area each goal addresses.\n4. Identify any parts that still need baseline data, clearer criteria, or team confirmation.\n5. Do not make placement, service, or readiness decisions.\n6. Keep this as draft language for revision by the educator and team.`,
       },
       {
         value: "iep_notes",
         label: "Organize source notes",
         template: ({ sourceText }) =>
-          `Organize the following de-identified IEP source notes into a clearer drafting outline.\n\nSource text:\n${sourceText}\n\nPlease:\n1. Group related information together.\n2. Separate observations, strengths, needs, and possible next drafting steps when supported by the text.\n3. Identify statements that sound subjective or need evidence.\n4. Flag information that appears incomplete or ambiguous.\n5. Keep the output practical for educator drafting and review.`,
+          `Organize the following IEP source notes into a clearer drafting outline.\n\nSource text:\n${sourceText}\n\nPlease:\n1. Group related information together.\n2. Separate observations, strengths, needs, and possible next drafting steps when supported by the text.\n3. Identify statements that sound subjective or need evidence.\n4. Flag information that appears incomplete or ambiguous.\n5. Keep the output practical for educator drafting and review.`,
       },
     ],
   },
@@ -129,11 +129,11 @@ const areaConfigs = {
       "Paste de-identified transition planning text here. Remove names and identifying details first.",
     purposeHelp:
       "Choose the drafting task you need. These prompts should help staff think and organize, not decide the student's future.",
-    privacyLegend: "Step 3: PHI / protected-information screening",
+    privacyLegend: "Step 3: Identifier checks and contextual review",
     privacyHelp:
-      "For transition planning, use the minimum de-identified text needed. This conservative screen looks for likely identifiers and should show Clear to continue before you generate a prompt. It is a teaching and review aid, not a FERPA compliance decision.",
+      "All three areas use the same browser-based identifier checks. The area changes drafting tasks and review emphasis, not detection strength. This is a teaching and review aid, not a FERPA compliance decision. Changing capitalization does not remove an identifier.",
     generatedHelp:
-      "Copy this prompt into an approved AI tool only after the privacy screen shows Clear to continue.",
+      "Review this prompt and copy it into an approved AI tool only after checking identifiers and completing contextual review.",
     reviewHelp:
       "Transition planning output must still be checked against student voice, assessment evidence, feasibility, dignity, and full team review.",
     purposes: [
@@ -141,25 +141,25 @@ const areaConfigs = {
         value: "assessment_analysis",
         label: "Analyze transition assessment data",
         template: ({ sourceText }) =>
-          `Review the following de-identified transition assessment notes and summarize the main patterns for educator review.\n\nSource text:\n${sourceText}\n\nPlease:\n1. Identify themes related to strengths, interests, preferences, support needs, and skill development.\n2. Separate evidence from inference.\n3. Note any contradictions, gaps, or areas that need more information.\n4. Suggest questions the team may still need to discuss.\n5. Do not make final determinations about the student's future or services.`,
+          `Review the following transition assessment notes and summarize the main patterns for educator review.\n\nSource text:\n${sourceText}\n\nPlease:\n1. Identify themes related to strengths, interests, preferences, support needs, and skill development.\n2. Separate evidence from inference.\n3. Note any contradictions, gaps, or areas that need more information.\n4. Suggest questions the team may still need to discuss.\n5. Do not make final determinations about the student's future or services.`,
       },
       {
         value: "postsecondary_goals",
         label: "Suggest postsecondary goal options",
         template: ({ sourceText }) =>
-          `Use the following de-identified transition planning notes to draft possible postsecondary goal options for educator review.\n\nSource text:\n${sourceText}\n\nPlease:\n1. Draft 2 to 3 possible postsecondary goal options grounded in the information provided.\n2. Keep the goals realistic, respectful, and student-centered.\n3. Note what evidence in the source text supports each option.\n4. Flag what still needs direct student input or team confirmation.\n5. Do not present any option as a final decision.`,
+          `Use the following transition planning notes to draft possible postsecondary goal options for educator review.\n\nSource text:\n${sourceText}\n\nPlease:\n1. Draft 2 to 3 possible postsecondary goal options grounded in the information provided.\n2. Keep the goals realistic, respectful, and student-centered.\n3. Note what evidence in the source text supports each option.\n4. Flag what still needs direct student input or team confirmation.\n5. Do not present any option as a final decision.`,
       },
       {
         value: "transition_services",
         label: "Draft transition services ideas",
         template: ({ sourceText }) =>
-          `Use the following de-identified transition planning notes to draft possible transition services ideas for educator review.\n\nSource text:\n${sourceText}\n\nPlease:\n1. Suggest possible services, supports, or activities that align with the information provided.\n2. Tie each idea to an identified need, goal area, or skill area when possible.\n3. Keep the suggestions practical and school-team appropriate.\n4. Flag anything that depends on missing information or local context.\n5. Do not treat the output as a final service decision.`,
+          `Use the following transition planning notes to draft possible transition services ideas for educator review.\n\nSource text:\n${sourceText}\n\nPlease:\n1. Suggest possible services, supports, or activities that align with the information provided.\n2. Tie each idea to an identified need, goal area, or skill area when possible.\n3. Keep the suggestions practical and school-team appropriate.\n4. Flag anything that depends on missing information or local context.\n5. Do not treat the output as a final service decision.`,
       },
       {
         value: "transition_annual_goals",
         label: "Draft transition annual goals",
         template: ({ sourceText }) =>
-          `Use the following de-identified transition planning notes to draft possible annual transition goal language for educator review.\n\nSource text:\n${sourceText}\n\nPlease:\n1. Draft possible annual goals tied to transition-related skill development.\n2. Keep the goals specific and measurable when the source text supports that level of precision.\n3. Identify what baseline information or criteria may still be missing.\n4. Note where student preference or real-world context should shape revision.\n5. Keep this as draft language for educator and team review.`,
+          `Use the following transition planning notes to draft possible annual transition goal language for educator review.\n\nSource text:\n${sourceText}\n\nPlease:\n1. Draft possible annual goals tied to transition-related skill development.\n2. Keep the goals specific and measurable when the source text supports that level of precision.\n3. Identify what baseline information or criteria may still be missing.\n4. Note where student preference or real-world context should shape revision.\n5. Keep this as draft language for educator and team review.`,
       },
     ],
   },
@@ -188,126 +188,41 @@ const privacyPreviewText = document.querySelector("#privacy-preview-text");
 const privacyRescan = document.querySelector("#privacy-rescan");
 const generatePromptButton = document.querySelector("#generate-prompt");
 
+// Rules recognize formats and person-label/subject context, not a name dictionary.
+// Case folding and Unicode letters keep capitalization from becoming a bypass.
 const privacyDetectors = [
-  {
-    id: "email",
-    severity: "red",
-    regex: /\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}\b/gi,
-    message: "Possible email address found",
-    suggestion: "Remove email addresses or replace them with a generic label.",
-  },
-  {
-    id: "phone",
-    severity: "red",
-    regex: /\b(?:\+?1[-.\s]?)?(?:\(?\d{3}\)?[-.\s]?){2}\d{4}\b/g,
-    message: "Possible phone number found",
-    suggestion: "Remove phone numbers or replace them with a generic label.",
-  },
-  {
-    id: "address",
-    severity: "red",
-    regex:
-      /\b\d{1,5}\s+[A-Z][a-z]+(?:\s+[A-Z][a-z]+){0,4}\s(?:Street|St|Avenue|Ave|Road|Rd|Lane|Ln|Drive|Dr|Court|Ct|Boulevard|Blvd|Way|Circle|Cir|Place|Pl)\b/g,
-    message: "Possible street address found",
-    suggestion: "Remove street addresses and replace them with a non-identifying description.",
-  },
-  {
-    id: "street_reference",
-    severity: "red",
-    regex:
-      /\b(?:\d{1,3}(?:st|nd|rd|th)|[A-Z][a-z]+(?:\s+[A-Z][a-z]+){0,2})\s(?:Street|St|Avenue|Ave|Road|Rd|Lane|Ln|Drive|Dr|Court|Ct|Boulevard|Blvd|Way|Circle|Cir|Place|Pl)\b/g,
-    message: "Possible street or work-site reference found",
-    suggestion: "Remove street names, street numbers, and work-site location details.",
-  },
-  {
-    id: "dob",
-    severity: "red",
-    regex: /\b(?:DOB|D\.O\.B\.|date of birth|born on)\b[:\s-]*[A-Z0-9/,-]*/gi,
-    message: "Possible date-of-birth detail found",
-    suggestion: "Remove date-of-birth or birth-date references.",
-  },
-  {
-    id: "student_id",
-    severity: "red",
-    regex: /\b(?:student id|ssid|id number|case number)\b[:#\s-]*[A-Z0-9-]{4,}\b/gi,
-    message: "Possible student or case ID found",
-    suggestion: "Remove ID or case numbers.",
-  },
-  {
-    id: "labeled_name",
-    severity: "red",
-    regex:
-      /\b(?:student|teacher|case manager|guardian|parent|mother|father|job coach|supervisor|counselor|principal|para|paraprofessional|manager|staff)\s*[:\-]?\s*[A-Z][a-z]+(?:\s+[A-Z][a-z]+){0,2}\b/g,
-    message: "Possible labeled person name found",
-    suggestion: "Replace personal names with a role label such as 'student' or 'teacher'.",
-  },
-  {
-    id: "titled_name",
-    severity: "red",
-    regex: /\b(?:Mr|Mrs|Ms|Miss|Dr)\.?\s+[A-Z][a-z]+(?:\s+[A-Z][a-z]+)?\b/g,
-    message: "Possible personal name found",
-    suggestion: "Remove titles and names or replace them with a generic role.",
-  },
-  {
-    id: "initials",
-    severity: "red",
-    regex: /\b(?:[A-Z]\.){2,3}(?=\s|$)/g,
-    message: "Possible student initials found",
-    suggestion: "Remove initials and use a generic role such as 'student'.",
-  },
-  {
-    id: "full_name",
-    severity: "red",
-    regex: /\b[A-Z][a-z]{1,}(?:\s+[A-Z][a-z]{1,}){1,2}\b/g,
-    message: "Possible name or named place found",
-    suggestion: "Remove personal names and generalize named places, schools, or employers.",
-  },
-  {
-    id: "first_name_context",
-    severity: "red",
-    regex: /\b(?:Aiden|Ava|Daniel|Emma|Emily|James|Jennifer|John|Jordan|Joseph|Joshua|Lucas|Maria|Michael|Noah|Olivia|Robert|Sofia|William)\s+(?:is|has|needs|uses|benefits|works|attends|lives)\b/gi,
-    message: "Possible personal name found",
-    suggestion: "Replace personal names with a generic role such as 'student'.",
-  },
-  {
-    id: "school",
-    severity: "red",
-    regex:
-      /\b[A-Z][A-Za-z]+(?:\s+[A-Z][A-Za-z]+){0,4}\s(?:High School|Middle School|Elementary School|Academy|School District|District|School)\b/g,
-    message: "Possible school or district name found",
-    suggestion: "Generalize the school or district name.",
-  },
-  {
-    id: "location",
-    severity: "red",
-    regex: /\b[A-Z][a-z]+(?:\s+[A-Z][a-z]+)?\,\s?(?:AL|AK|AZ|AR|CA|CO|CT|DE|FL|GA|HI|IA|ID|IL|IN|KS|KY|LA|MA|MD|ME|MI|MN|MO|MS|MT|NC|ND|NE|NH|NJ|NM|NV|NY|OH|OK|OR|PA|RI|SC|SD|TN|TX|UT|VA|VT|WA|WI|WV|WY|Alabama|Alaska|Arizona|Arkansas|California|Colorado|Connecticut|Delaware|Florida|Georgia|Hawaii|Idaho|Illinois|Indiana|Iowa|Kansas|Kentucky|Louisiana|Maine|Maryland|Massachusetts|Michigan|Minnesota|Mississippi|Missouri|Montana|Nebraska|Nevada|New Hampshire|New Jersey|New Mexico|New York|North Carolina|North Dakota|Ohio|Oklahoma|Oregon|Pennsylvania|Rhode Island|South Carolina|South Dakota|Tennessee|Texas|Utah|Vermont|Virginia|Washington|West Virginia|Wisconsin|Wyoming)\b/g,
-    message: "Possible city or state reference found",
-    suggestion: "Generalize the town, city, or state reference if it is not essential.",
-  },
-  {
-    id: "location_context",
-    severity: "red",
-    regex:
-      /\b(?:in|near|from|to)\s+[A-Z][a-z]{2,}(?=[,.]|\s+(?:while|where|when|after|before|for|with|his|her|their)\b|$)/g,
-    message: "Possible city or place reference found",
-    suggestion: "Remove or generalize town, city, and other location references.",
-  },
-  {
-    id: "class",
-    severity: "red",
-    regex:
-      /\b(?:homeroom|[1-9](?:st|nd|rd|th)\s+period|period\s*[1-9]|[A-Z][a-z]+'s class|classroom\s+\d+|room\s+\d+)\b/gi,
-    message: "Possible class or room identifier found",
-    suggestion: "Remove class, period, or room identifiers if they are not necessary.",
-  },
-  {
-    id: "medical",
-    severity: "red",
-    regex:
-      /\b(?:medical history|diagnosis|diagnosed with|medication|therapy|hospitalized|autism|adhd|add|intellectual disability|developmental disability|learning disability|specific learning disability|emotional disturbance|traumatic brain injury|cerebral palsy|down syndrome|deaf|hard of hearing|visual impairment|orthopedic impairment|other health impairment|speech or language impairment)\b/gi,
-    message: "Possible disability type or medical detail found",
-    suggestion: "Do not include disability or medical details unless the approved tool and the specific task truly require the minimum necessary information.",
-  },
+  { id: "email", severity: "red", regex: /\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}\b/gi,
+    message: "Possible email address", suggestion: "Remove email addresses." },
+  { id: "phone", severity: "red", regex: /(?<!\d)(?:\+?1[-.\s]?)?\(?\d{3}\)?[-.\s]?\d{3}[-.\s]?\d{4}(?!\d)|\+\d{1,3}[ -](?:\d[ -]?){7,12}\d/g,
+    message: "Possible phone number", suggestion: "Remove phone numbers." },
+  { id: "address", severity: "red", regex: /\b\d{1,6}[ \t]+(?:[\p{L}\p{M}\d.'’-]+[ \t]+){1,6}(?:street|st|avenue|ave|road|rd|lane|ln|drive|dr|court|ct|boulevard|blvd|way|circle|cir|place|pl|terrace|ter|parkway|pkwy)\b/giu,
+    message: "Possible street address", suggestion: "Replace addresses with a general setting." },
+  { id: "po_box", severity: "red", regex: /\b(?:p\.?[ \t]*o\.?[ \t]*box|post office box)[ \t]*\d+[A-Z0-9-]*/gi,
+    message: "Possible PO box", suggestion: "Remove mailing addresses." },
+  { id: "dob", severity: "red", regex: /\b(?:dob|d\.o\.b\.|date of birth|birth[ -]?date|birthday|born on)[ \t]*[:=-]?[ \t]*(?:\d{1,4}[-/.]\d{1,2}[-/.]\d{1,4}|[\p{L}]+[ \t]+\d{1,2}(?:,[ \t]*|[ \t]+)\d{4}|\d{1,2}[ \t]+[\p{L}]+[ \t]+\d{4})/giu,
+    message: "Possible birth date", suggestion: "Remove birth dates." },
+  { id: "student_id", severity: "red", regex: /\b(?:student[ \t]+(?:id|number|no\.?)|ssid|id number|case[ \t]+(?:number|id)|record number)[ \t]*[:#=-]*[ \t]*[A-Z0-9][A-Z0-9-]{2,}\b/gi,
+    message: "Possible student or record identifier", suggestion: "Remove student, case, and record numbers." },
+  { id: "ssn", severity: "red", regex: /\b\d{3}-\d{2}-\d{4}\b|\b(?:ssn|social security(?: number)?)[ \t]*[:#=-]?[ \t]*\d{9}\b/gi,
+    message: "Possible Social Security number", suggestion: "Remove identification numbers, including synthetic examples in these formats." },
+  { id: "labeled_name", severity: "red", regex: /\b(?:(?:student|teacher|parent|guardian|supervisor|job coach|case manager|staff)(?:[ \t]+name)?|name|student initials)[ \t]*[:=][ \t]*[\p{L}\p{M}][\p{L}\p{M}.'’-]*(?:[ \t]+[\p{L}\p{M}.'’-]+){0,3}/giu,
+    message: "Possible labeled person name", suggestion: "Replace names with a generic role; use [Student Name] for a blank template.",
+    accept: (match) => !/[:=]\s*(?:learning goals|student|learner|teacher|guardian|supervisor)[.\s]*$/i.test(match[0]) },
+  { id: "titled_name", severity: "red", regex: /\b(?:mr|mrs|ms|miss|dr)\.?[ \t]+[\p{L}\p{M}][\p{L}\p{M}.'’-]*/giu,
+    message: "Possible titled person name", suggestion: "Replace personal names with a generic role." },
+  { id: "person_subject", severity: "red", regex: /(?:^|(?<=[.!?\n]))[ \t]*(?:[\p{L}\p{M}][\p{L}\p{M}'’-]*[ \t]+){1,4}(?=(?:needs?|uses?|benefits?|works?|attends?|lives?|completes?|completed|asks?|has|is)[ \t])/giu,
+    message: "Possible person name in a sentence", suggestion: "Review the highlighted subject and replace personal names with a generic role.",
+    accept: (match) => !/\b(?:the|a|an|this|that|student|learner|worker|staff|teacher|supervisor|coach|parent|guardian|they|he|she|it|who|everyone|someone|person|team|group|checklist|task|support|instruction|schedule|worksheet|tool|text|prompt|material|activity|lesson|plan|work|practice|communication|equipment)\b/i.test(match[0]) },
+  { id: "initials", severity: "red", regex: /\b(?:[A-Z]\.){2,3}(?=\s|$)/gi,
+    message: "Possible person initials", suggestion: "Use a generic role instead of initials." },
+  { id: "place_label", severity: "red", regex: /\b(?:school|employer|workplace|home address|mailing address|city)[ \t]*[:=][ \t]*[^\n.;\[\]]+/gi,
+    message: "Possible labeled place", suggestion: "Replace named schools, employers, and places with general settings." },
+  { id: "school", severity: "review", regex: /\b(?:[\p{L}][\p{L}'’-]*[ \t]+){1,3}(?:high school|middle school|elementary school|academy|school district)\b/giu,
+    message: "Context review: possible school reference", suggestion: "Generalize any actual school name; instructional discussion alone is not an identifier." },
+  { id: "class", severity: "review", regex: /\b(?:homeroom|[1-9](?:st|nd|rd|th)[ \t]+period|period[ \t]*[1-9]|classroom[ \t]+\d+|room[ \t]+\d+)\b/gi,
+    message: "Context review: class or room detail", suggestion: "Remove specific class or room details if they identify someone in context." },
+  { id: "medical", severity: "review", regex: /\b(?:medical history|diagnos(?:is|ed with)|medication|therapy|hospitalized|autism|adhd|attention deficit disorder|intellectual disability|developmental disability|learning disability|specific learning disability|orthopedic impairment|other health impairment|speech or language impairment|emotional disturbance|traumatic brain injury|cerebral palsy|down syndrome|deaf|hard of hearing|visual impairment|epilepsy|diabetes|takes[ \t]+[\p{L}]+[ \t]+(?:at|daily))\b|\b(?:has|diagnosed with)[ \t]+ADD\b/giu,
+    message: "Context review: sensitive health or disability information", suggestion: "Remove private medical details. Prefer a functional description of supports; retain only information permitted for the task and approved tool." },
 ];
 
 function summarizeSnippet(match) {
@@ -326,13 +241,18 @@ function screenSourceText(text, area) {
   }
 
   const findings = [];
+  // Ignore only known blank placeholders, preserving exact offsets for highlighting.
+  const screened = trimmed.replace(/\[(?:student name|support type|workplace name|name|student|support|workplace|task)\]/gi,
+    (placeholder) => " ".repeat(placeholder.length));
 
   for (const detector of privacyDetectors) {
     if (detector.areas && !detector.areas.includes(area)) continue;
     const regex = new RegExp(detector.regex.source, detector.regex.flags);
-    const matches = [...trimmed.matchAll(regex)].slice(0, 3);
+    const matches = [...screened.matchAll(regex)];
     for (const match of matches) {
+      if (detector.accept && !detector.accept(match)) continue;
       findings.push({
+        id: detector.id,
         severity: detector.severity,
         message: detector.message,
         snippet: summarizeSnippet(match[0]),
@@ -346,7 +266,7 @@ function screenSourceText(text, area) {
   if (!findings.length) {
     return {
       level: "green",
-      copy: "No likely identifying or protected details were detected. You may continue, but this screen cannot guarantee that text is safe to share.",
+      copy: "No identifiers detected by these checks. Complete the contextual review before generating. This screen cannot guarantee that text is safe to share.",
       flags: [],
       suggestions: [],
       text: trimmed,
@@ -354,10 +274,12 @@ function screenSourceText(text, area) {
     };
   }
 
-  const level = "red";
+  const level = findings.some((finding) => finding.severity === "red") ? "red" : "review";
   const uniqueSuggestions = [...new Set(findings.map((finding) => finding.suggestion))];
-  const topFindings = findings.slice(0, 6);
-  const copy = "Possible identifying or protected information was detected. Remove or generalize every flagged detail before generating a prompt.";
+  const topFindings = findings;
+  const copy = level === "red"
+    ? "Possible identifiers detected. Remove or generalize these details, then review again. Sensitive-content findings also require your judgment."
+    : "Sensitive or contextual details need your review. Remove private details and keep only the minimum permitted functional information. These findings alone do not establish identity.";
 
   return {
     level,
@@ -410,11 +332,13 @@ function renderPrivacyScreen(result) {
     "privacy-screen--pending",
     "privacy-screen--green",
     "privacy-screen--red",
+    "privacy-screen--review",
   );
   privacySignal.classList.remove(
     "privacy-signal--pending",
     "privacy-signal--green",
     "privacy-signal--red",
+    "privacy-signal--review",
   );
 
   const screenLevel = result.level || "pending";
@@ -423,7 +347,8 @@ function renderPrivacyScreen(result) {
 
   const labelMap = {
     pending: "Needs review",
-    green: "Clear to continue",
+    green: "No identifiers detected by these checks",
+    review: "Contextual review needed",
     red: "Stop: remove details",
   };
 
@@ -451,7 +376,7 @@ function renderPrivacyScreen(result) {
   }
 
   if (generatePromptButton) {
-    generatePromptButton.disabled = screenLevel !== "green";
+    generatePromptButton.disabled = !screeningReady || !contextReview.checked || !["green", "review"].includes(screenLevel);
   }
 }
 
@@ -493,88 +418,127 @@ function renderAreaConfig(area) {
   evaluatePrivacyScreen();
 }
 
+const contextReview = document.querySelector("#context-review");
+const screeningUnavailable = document.querySelector("#screening-unavailable");
+let screeningReady = false;
+let outputRevision = 0;
+let generatedState = "";
+
+function currentDraftState() {
+  return JSON.stringify([sourceTextInput.value, getSelectedArea(),
+    labForm.querySelector('input[name="purpose"]:checked')?.value, contextReview.checked]);
+}
+
+function invalidatePrompt(resetReview = false) {
+  outputRevision += 1;
+  generatedState = "";
+  generatedPrompt.value = "";
+  copyPromptButton.disabled = true;
+  copyStatus.textContent = "";
+  if (resetReview) contextReview.checked = false;
+}
+
+function disableScreening() {
+  screeningReady = false;
+  sourceTextInput.disabled = true;
+  generatePromptButton.disabled = true;
+  privacyRescan.disabled = true;
+  contextReview.disabled = true;
+  invalidatePrompt(true);
+  screeningUnavailable.hidden = false;
+}
+
+// Fail closed after a screening/event error as well as during initialization.
+function labAction(action) {
+  return (...args) => {
+    try { return action(...args); } catch { disableScreening(); }
+  };
+}
+
 if (labForm && generatedPrompt) {
-  renderAreaConfig(getSelectedArea());
-
-  labForm.querySelectorAll('input[name="area"]').forEach((input) => {
-    input.addEventListener("change", () => {
-      renderAreaConfig(input.value);
-      generatedPrompt.value = "";
-      if (copyStatus) copyStatus.textContent = "";
+  try {
+    // Verify required controls before enabling entry. No form exists to submit.
+    if (![sourceTextInput, generatePromptButton, copyPromptButton, clearLabButton,
+      copyStatus, purposeGrid, privacyRescan, contextReview, screeningUnavailable,
+      privacyScreen, privacySignal, privacyStatusCopy, privacyFlags, privacyPreview,
+      privacyPreviewText, sourceTextLabel, sourceTextHelp].every(Boolean)) {
+      throw new Error("Screening controls unavailable");
+    }
+    renderAreaConfig(getSelectedArea());
+    labForm.querySelectorAll('input[name="area"]').forEach((input) => {
+      input.addEventListener("change", labAction(() => {
+        invalidatePrompt(true);
+        renderAreaConfig(input.value);
+      }));
     });
-  });
-
-  sourceTextInput?.addEventListener("input", () => {
+    purposeGrid.addEventListener("change", labAction(() => invalidatePrompt()));
+    sourceTextInput.addEventListener("input", labAction(() => {
+      invalidatePrompt(true);
+      evaluatePrivacyScreen();
+    }));
+    privacyRescan.addEventListener("click", labAction(() => {
+      invalidatePrompt(true);
+      evaluatePrivacyScreen();
+    }));
+    contextReview.addEventListener("change", labAction(() => {
+      invalidatePrompt();
+      evaluatePrivacyScreen();
+    }));
+    generatePromptButton.addEventListener("click", labAction(() => {
+      invalidatePrompt();
+      const result = evaluatePrivacyScreen();
+      if (!screeningReady || !contextReview.checked || !["green", "review"].includes(result.level)) return;
+      const purpose = labForm.querySelector('input[name="purpose"]:checked')?.value;
+      const template = areaConfigs[getSelectedArea()].purposes.find((item) => item.value === purpose);
+      if (!template) return;
+      generatedPrompt.value = template.template({ sourceText: sourceTextInput.value.trim() });
+      generatedState = currentDraftState();
+      copyPromptButton.disabled = false;
+      copyStatus.textContent = "Prompt generated. Review it before copying.";
+    }));
+    copyPromptButton.addEventListener("click", async () => {
+      const revision = outputRevision;
+      try {
+        if (!screeningReady || !generatedState || generatedState !== currentDraftState()) {
+          invalidatePrompt(true);
+          evaluatePrivacyScreen();
+          return;
+        }
+        const result = evaluatePrivacyScreen();
+        if (!["green", "review"].includes(result.level)) { invalidatePrompt(true); return; }
+        let copied = false;
+        try { await navigator.clipboard.writeText(generatedPrompt.value); copied = true; } catch {
+          // Never copy a different draft after the asynchronous clipboard attempt.
+          if (revision !== outputRevision) return;
+          generatedPrompt.focus();
+          generatedPrompt.select();
+          try { copied = document.execCommand("copy") === true; } catch { copied = false; }
+        }
+        if (revision === outputRevision) copyStatus.textContent = copied
+          ? "Prompt copied."
+          : "Automatic copy failed. The prompt is selected; copy it manually with Ctrl+C or Command+C, or your device’s Copy menu.";
+      } catch { disableScreening(); }
+    });
+    clearLabButton.addEventListener("click", labAction(() => {
+      sourceTextInput.value = "";
+      invalidatePrompt(true);
+      labForm.querySelector('input[name="area"][value="hidden_curriculum"]').checked = true;
+      renderAreaConfig("hidden_curriculum");
+    }));
+    // Enable last, only after an actual scan and all handlers are installed.
+    screeningReady = true;
     evaluatePrivacyScreen();
-    generatedPrompt.value = "";
-    if (copyStatus) copyStatus.textContent = "";
-  });
-
-  privacyRescan?.addEventListener("click", () => {
-    evaluatePrivacyScreen();
-  });
-
-  labForm.addEventListener("submit", (event) => {
-    event.preventDefault();
-    const selectedArea = getSelectedArea();
-    const sourceText = sourceTextInput?.value.trim() || "";
-    const selectedPurpose = labForm.querySelector('input[name="purpose"]:checked')?.value;
-    const selectedConfig = areaConfigs[selectedArea];
-    const selectedTemplate = selectedConfig?.purposes.find((purpose) => purpose.value === selectedPurpose);
-    const privacyResult = evaluatePrivacyScreen();
-
-    if (!sourceText) {
-      generatedPrompt.value = "Paste source text before generating a prompt.";
-      return;
-    }
-
-    if (privacyResult.level !== "green") {
-      generatedPrompt.value =
-        "The privacy screen has not cleared this text yet. Remove or generalize the flagged details until the status turns green.";
-      return;
-    }
-
-    if (!selectedTemplate) {
-      generatedPrompt.value = "Choose a drafting task before generating a prompt.";
-      return;
-    }
-
-    generatedPrompt.value = selectedTemplate.template({ sourceText });
-    if (copyStatus) {
-      copyStatus.textContent = "Prompt generated.";
-    }
-  });
-}
-
-if (copyPromptButton && generatedPrompt) {
-  copyPromptButton.addEventListener("click", async () => {
-    if (!generatedPrompt.value.trim()) {
-      if (copyStatus) copyStatus.textContent = "Generate a prompt first.";
-      return;
-    }
-
-    try {
-      await navigator.clipboard.writeText(generatedPrompt.value);
-      if (copyStatus) copyStatus.textContent = "Prompt copied.";
-    } catch {
-      generatedPrompt.select();
-      document.execCommand("copy");
-      if (copyStatus) copyStatus.textContent = "Prompt copied.";
-    }
-  });
-}
-
-if (clearLabButton && labForm && generatedPrompt) {
-  clearLabButton.addEventListener("click", () => {
-    labForm.reset();
-    const defaultArea = labForm.querySelector('input[name="area"][value="hidden_curriculum"]');
-    if (defaultArea) defaultArea.checked = true;
-    renderAreaConfig("hidden_curriculum");
-    if (sourceTextInput) sourceTextInput.value = "";
-    generatedPrompt.value = "";
-    if (copyStatus) copyStatus.textContent = "";
-    evaluatePrivacyScreen();
-  });
+    sourceTextInput.disabled = false;
+    privacyRescan.disabled = false;
+    contextReview.disabled = false;
+    screeningUnavailable.hidden = true;
+  } catch {
+    // Initial HTML already disables entry and generation even for syntax errors.
+    screeningReady = false;
+    if (sourceTextInput) sourceTextInput.disabled = true;
+    if (generatePromptButton) generatePromptButton.disabled = true;
+    if (screeningUnavailable) screeningUnavailable.hidden = false;
+  }
 }
 
 async function copyTextToClipboard(text) {
@@ -588,8 +552,9 @@ async function copyTextToClipboard(text) {
     fallback.style.opacity = "0";
     document.body.append(fallback);
     fallback.select();
-    document.execCommand("copy");
-    fallback.remove();
+    try {
+      if (!document.execCommand("copy")) throw new Error("Copy failed");
+    } finally { fallback.remove(); }
   }
 }
 
@@ -612,8 +577,13 @@ for (const promptDetails of document.querySelectorAll(".example-prompt")) {
   promptPre.before(copyRow);
 
   copyButton.addEventListener("click", async () => {
-    await copyTextToClipboard(promptCode.textContent.trim());
-    copyStatusText.textContent = "Copied";
+    try {
+      await copyTextToClipboard(promptCode.textContent.trim());
+      copyStatusText.textContent = "Copied";
+    } catch {
+      copyStatusText.textContent = "Automatic copy failed. Select the prompt and copy it manually.";
+      return;
+    }
     window.setTimeout(() => {
       copyStatusText.textContent = "";
     }, 1800);
