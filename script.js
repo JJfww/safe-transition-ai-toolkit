@@ -37,8 +37,6 @@ const areaConfigs = {
       "Use short workplace text that staff could reasonably review and discuss, such as a rule, task description, training excerpt, or supervisor expectation.",
     sourcePlaceholder:
       "Paste workplace text here. Remove names and identifying details first.",
-    purposeHelp:
-      "Choose the kind of staff support you want to draft. The task changes the prompt structure and review emphasis.",
     privacyLegend: "Step 3: Identifier checks and contextual review",
     privacyHelp:
       "All three areas use the same browser-based identifier checks. The area changes drafting tasks and review emphasis, not detection strength. This is a teaching and review aid, not a FERPA compliance decision. Changing capitalization does not remove an identifier.",
@@ -91,8 +89,6 @@ const areaConfigs = {
       "Use de-identified present-level notes, strengths and needs summaries, draft language, or source notes that need organization. Do not paste full identifiable records.",
     sourcePlaceholder:
       "Paste de-identified IEP source text here. Remove names, dates, and protected details first.",
-    purposeHelp:
-      "Choose the drafting task you want help structuring. These prompts are for drafting support only, not final team decisions.",
     privacyLegend: "Step 3: Identifier checks and contextual review",
     privacyHelp:
       "All three areas use the same browser-based identifier checks. The area changes drafting tasks and review emphasis, not detection strength. This is a teaching and review aid, not a FERPA compliance decision. Changing capitalization does not remove an identifier.",
@@ -127,8 +123,6 @@ const areaConfigs = {
       "Use de-identified transition assessment notes, student preference summaries, strengths and needs notes, or planning language related to goals and services.",
     sourcePlaceholder:
       "Paste de-identified transition planning text here. Remove names and identifying details first.",
-    purposeHelp:
-      "Choose the drafting task you need. These prompts should help staff think and organize, not decide the student's future.",
     privacyLegend: "Step 3: Identifier checks and contextual review",
     privacyHelp:
       "All three areas use the same browser-based identifier checks. The area changes drafting tasks and review emphasis, not detection strength. This is a teaching and review aid, not a FERPA compliance decision. Changing capitalization does not remove an identifier.",
@@ -219,6 +213,15 @@ const privacyDetectors = [
     message: "Possible labeled place", suggestion: "Replace named schools, employers, and places with general settings." },
   { id: "school", severity: "review", regex: /\b(?:[\p{L}][\p{L}'’-]*[ \t]+){1,3}(?:high school|middle school|elementary school|academy|school district)\b/giu,
     message: "Context review: possible school reference", suggestion: "Generalize any actual school name; instructional discussion alone is not an identifier." },
+  { id: "family_names", severity: "red", regex: /\b(?:parents|siblings|brothers|sisters)[ \t]*,?[ \t]+([\p{L}\p{M}][\p{L}\p{M}'’-]*(?:[ \t]+[\p{L}\p{M}][\p{L}\p{M}'’-]*){0,2}[ \t]+and[ \t]+[\p{L}\p{M}][\p{L}\p{M}'’-]*(?:[ \t]+[\p{L}\p{M}][\p{L}\p{M}'’-]*){0,2})(?=[,.;\n]|$)/giu,
+    message: "Possible family member names", suggestion: "Remove relatives’ names; use general family roles only when needed.",
+    accept: (match) => !/\b(?:teachers|staff|students|guardians|caregivers|families|friends|support|help|learn|work|school|home|with|who)\b/i.test(match[1]), group: 1 },
+  { id: "family_context", severity: "review", regex: /\b(?:liv(?:e|es|ing)|resid(?:e|es|ing)|stay(?:s|ing)?)[ \t]+with[ \t]+(?:his|her|their|a|the)[ \t]+(?:parents?|family|guardians?|siblings?|mother|father|grandparents?)(?:[^.;\n]{0,120})/gi,
+    message: "Context review: living arrangement or household details", suggestion: "Consider whether household details identify someone or reveal private family information. Keep only the planning information needed." },
+  { id: "worksite_context", severity: "review", regex: /\b(?:work(?:s|ed|ing)?[ \t]+at|employed[ \t]+(?:at|by)|intern(?:s|ed|ing)?[ \t]+at)[ \t]+((?:[\p{L}\p{M}\d&'’-]+[ \t]+){0,7}[\p{L}\p{M}\d&'’-]+?)(?=[ \t]+(?:and|every|where|while|for|with)\b|[,.;\n]|$)/giu,
+    message: "Context review: employer or worksite reference", suggestion: "Generalize named employers and distinctive work histories, for example to 'a food-service workplace'.", group: 1 },
+  { id: "college_context", severity: "review", regex: /\b(?:[\p{L}\p{M}][\p{L}\p{M}'’-]*[ \t]+){1,4}(?:community college|college|university|cc)\b/giu,
+    message: "Context review: college or training institution", suggestion: "Generalize named institutions, for example to 'a local training program'." },
   { id: "class", severity: "review", regex: /\b(?:homeroom|[1-9](?:st|nd|rd|th)[ \t]+period|period[ \t]*[1-9]|classroom[ \t]+\d+|room[ \t]+\d+)\b/gi,
     message: "Context review: class or room detail", suggestion: "Remove specific class or room details if they identify someone in context." },
   { id: "medical", severity: "review", regex: /\b(?:medical history|diagnos(?:is|ed with)|medication|therapy|hospitalized|autism|adhd|attention deficit disorder|intellectual disability|developmental disability|learning disability|specific learning disability|orthopedic impairment|other health impairment|speech or language impairment|emotional disturbance|traumatic brain injury|cerebral palsy|down syndrome|deaf|hard of hearing|visual impairment|epilepsy|diabetes|takes[ \t]+[\p{L}]+[ \t]+(?:at|daily))\b|\b(?:has|diagnosed with)[ \t]+ADD\b/giu,
@@ -251,14 +254,16 @@ function screenSourceText(text, area) {
     const matches = [...screened.matchAll(regex)];
     for (const match of matches) {
       if (detector.accept && !detector.accept(match)) continue;
+      const snippet = detector.group ? match[detector.group] : match[0];
+      const start = match.index + (detector.group ? match[0].indexOf(snippet) : 0);
       findings.push({
         id: detector.id,
         severity: detector.severity,
         message: detector.message,
-        snippet: summarizeSnippet(match[0]),
+        snippet: summarizeSnippet(snippet),
         suggestion: detector.suggestion,
-        start: match.index,
-        end: match.index + match[0].length,
+        start,
+        end: start + snippet.length,
       });
     }
   }
@@ -376,7 +381,7 @@ function renderPrivacyScreen(result) {
   }
 
   if (generatePromptButton) {
-    generatePromptButton.disabled = !screeningReady || !contextReview.checked || !["green", "review"].includes(screenLevel);
+    generatePromptButton.disabled = !screeningReady || !contextReview.checked || !getSelectedPurposes().length || !["green", "review"].includes(screenLevel);
   }
 }
 
@@ -400,7 +405,7 @@ function renderAreaConfig(area) {
   sourceTextLabel.textContent = config.sourceLabel;
   sourceTextHelp.textContent = config.sourceHelp;
   sourceTextInput.placeholder = config.sourcePlaceholder;
-  if (purposeHelp) purposeHelp.textContent = config.purposeHelp;
+  if (purposeHelp) purposeHelp.textContent = "Select one or more tasks. Multiple selections create one prompt with a separate section for each task.";
   if (privacyLegend) privacyLegend.textContent = config.privacyLegend;
   if (privacyHelp) privacyHelp.textContent = config.privacyHelp;
   if (generatedPromptHelp) generatedPromptHelp.textContent = config.generatedHelp;
@@ -409,7 +414,7 @@ function renderAreaConfig(area) {
   purposeGrid.innerHTML = config.purposes
     .map(
       (purpose, index) =>
-        `<label class="purpose-card"><input type="radio" name="purpose" value="${purpose.value}" ${
+        `<label class="purpose-card"><input type="checkbox" name="purpose" value="${purpose.value}" ${
           index === 0 ? "checked" : ""
         } /> <span>${purpose.label}</span></label>`,
     )
@@ -424,9 +429,13 @@ let screeningReady = false;
 let outputRevision = 0;
 let generatedState = "";
 
+function getSelectedPurposes() {
+  return [...labForm.querySelectorAll('input[name="purpose"]:checked')].map((input) => input.value);
+}
+
 function currentDraftState() {
   return JSON.stringify([sourceTextInput.value, getSelectedArea(),
-    labForm.querySelector('input[name="purpose"]:checked')?.value, contextReview.checked]);
+    getSelectedPurposes(), contextReview.checked]);
 }
 
 function invalidatePrompt(resetReview = false) {
@@ -471,7 +480,11 @@ if (labForm && generatedPrompt) {
         renderAreaConfig(input.value);
       }));
     });
-    purposeGrid.addEventListener("change", labAction(() => invalidatePrompt()));
+    purposeGrid.addEventListener("change", labAction(() => {
+      invalidatePrompt();
+      evaluatePrivacyScreen();
+      if (!getSelectedPurposes().length) copyStatus.textContent = "Select at least one drafting task.";
+    }));
     sourceTextInput.addEventListener("input", labAction(() => {
       invalidatePrompt(true);
       evaluatePrivacyScreen();
@@ -488,10 +501,13 @@ if (labForm && generatedPrompt) {
       invalidatePrompt();
       const result = evaluatePrivacyScreen();
       if (!screeningReady || !contextReview.checked || !["green", "review"].includes(result.level)) return;
-      const purpose = labForm.querySelector('input[name="purpose"]:checked')?.value;
-      const template = areaConfigs[getSelectedArea()].purposes.find((item) => item.value === purpose);
-      if (!template) return;
-      generatedPrompt.value = template.template({ sourceText: sourceTextInput.value.trim() });
+      const purposes = getSelectedPurposes();
+      const templates = areaConfigs[getSelectedArea()].purposes.filter((item) => purposes.includes(item.value));
+      if (!templates.length) return;
+      const sourceText = sourceTextInput.value.trim();
+      generatedPrompt.value = templates.length === 1
+        ? templates[0].template({ sourceText })
+        : `Use the shared source text below for each selected task. Return a separate, clearly labeled section for each task. Keep all output provisional for educator review. Do not invent details or make final decisions about a student.\n\nShared source text:\n${sourceText}\n\nSelected tasks:\n\n${templates.map((template, index) => `${index + 1}. ${template.label}\n${template.template({ sourceText: "[Use the shared source text above.]" })}`).join("\n\n")}`;
       generatedState = currentDraftState();
       copyPromptButton.disabled = false;
       copyStatus.textContent = "Prompt generated. Review it before copying.";
