@@ -2,7 +2,7 @@
 
 ## Project Structure & Module Organization
 
-This repository is a static website for the SAFE Transition AI Toolkit. Public pages live at the repo root, including [index.html](/Users/jennifer/Desktop/Capstone/index.html), [start-here.html](/Users/jennifer/Desktop/Capstone/start-here.html), and [hidden-curriculum-ai-lab.html](/Users/jennifer/Desktop/Capstone/hidden-curriculum-ai-lab.html). Shared presentation and interaction logic live in [styles.css](/Users/jennifer/Desktop/Capstone/styles.css) and [script.js](/Users/jennifer/Desktop/Capstone/script.js). Draft source content belongs in `/content/*.md`; update Markdown first, then promote approved copy into public HTML.
+This repository is a static website for the SAFE Transition AI Toolkit. Public pages live at the repo root, including [index.html](index.html), [start-here.html](start-here.html), and [hidden-curriculum-ai-lab.html](hidden-curriculum-ai-lab.html). Shared presentation and interaction logic live in [styles.css](styles.css) and [script.js](script.js). Draft source content belongs in `/content/*.md`; update Markdown first, then promote approved copy into public HTML.
 
 ## Build, Test, and Development Commands
 
